@@ -1,0 +1,4034 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+.accountsMainSection {
+  display: flex;
+}
+
+.accountsSection01 {
+  width: 50%;
+  background-color: #ffffff;
+  height: auto;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  padding: 70px 20px;
+}
+.accountsSection02 {
+  width: 50%;
+  background-color: #f4f5f7;
+  height: auto;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  padding: 70px 20px;
+}
+.formContentDiv01 {
+  width: 100%;
+  max-width: 404px;
+  margin: 0 auto;
+}
+.formContentDiv01 h2 {
+  color: #2c415a;
+  font-family: "Noto Sans";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 66px; /* 165% */
+  margin-bottom: 0;
+}
+.formContentDiv01 p {
+  margin-bottom: 0;
+  color: #2c415a;
+  font-family: "Noto Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 144.444% */
+  margin-top: 10px;
+}
+.accountForm01 {
+  margin-top: 36px;
+}
+.accountsInput {
+  color: rgba(44, 65, 90, 0.6) !important;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: "Noto Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  border-radius: 40px;
+  border: 1px solid rgba(44, 65, 90, 0.15);
+  padding: 15px 22px;
+  margin-bottom: 10px;
+  background: none;
+}
+.accountsInput:focus {
+  box-shadow: none;
+}
+.accountsInput::placeholder {
+  color: rgba(44, 65, 90, 0.6) !important;
+}
+.accountsCheckInput:focus {
+  box-shadow: none;
+}
+.accountsCheckInput {
+  width: 19.2px;
+  height: 19.2px;
+  border-radius: 4px;
+  border: 1px solid #2c415a !important;
+}
+.accountsCheckInput:checked {
+  /* background-color: #2c415a; */
+  background: none;
+}
+.accountsCheckInput:checked[type="checkbox"] {
+  /* --bs-form-check-bg-image: url(../images/Checkbox.svg); */
+
+  background-image: url(../images/Checkbox.svg);
+}
+.accountsLabel {
+  color: #2c415a;
+  font-family: "Noto Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+}
+.accountButton01 {
+  color: var(--Default-Neutral-White, #fff);
+  text-align: center;
+  font-family: "Noto Sans";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 19.2px; /* 128% */
+  border-radius: 40px;
+  background: var(--Linear, linear-gradient(90deg, #1d5562 0%, #2c7a94 100%));
+  padding: 16px 0px 17px 0px;
+  width: 100%;
+  border: none;
+  margin-top: 57px;
+}
+.formContentDiv02 {
+  width: 100%;
+  max-width: 404px;
+  margin: 0 auto;
+}
+.formContentDiv02 h3 {
+  margin-bottom: 0;
+  color: #2c415a;
+  font-family: "Noto Sans";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 66px; /* 165% */
+  text-align: center;
+}
+.formContentDiv02 p {
+  margin-bottom: 0;
+  color: #2c415a;
+  text-align: center;
+  font-family: "Noto Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 144.444% */
+}
+.accountButton02 {
+  color: var(--Default-Neutral-White, #fff);
+  text-align: center;
+  font-family: "Noto Sans";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 19.2px; /* 128% */
+  border-radius: 40px;
+  background: var(--Linear, linear-gradient(90deg, #1d5562 0%, #2c7a94 100%));
+  padding: 16px 0px 17px 0px;
+  width: 100%;
+  border: none;
+  margin-top: 22px;
+}
+
+.formContentDiv02 h6 {
+  margin-bottom: 0;
+  color: #2c415a;
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: "Noto Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px; /* 137.5% */
+  margin-top: 22px;
+}
+.socialItemDiv {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 22px;
+}
+.socialItemDiv img {
+  width: 46px;
+  height: 46px;
+  transition: all 300ms ease-in-out;
+}
+.socialItemDiv img:hover {
+  transform: scale(1.08);
+}
+.formContentDiv02 p span {
+  font-weight: 700;
+}
+.formContentDiv02 h6 a {
+  color: #2c415a;
+  font-weight: 700;
+  text-decoration: none;
+}
+.otpImgDiv {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.otpImgDiv img {
+  width: 100%;
+  max-width: 248px;
+}
+.otpInput01 {
+  width: 100%;
+  max-width: 80.268px;
+  color: #2c415a;
+  font-family: "Noto Sans";
+  font-size: 55.357px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: center;
+  background: none;
+  border: none;
+  border-bottom: 1px solid #b9b9b9;
+  outline: none;
+}
+.otpInputDiv01 {
+  display: flex;
+  gap: 27px;
+  margin-top: 22px;
+  justify-content: center;
+}
+.forgotP {
+  margin-bottom: 22px !important;
+}
+.successMsj {
+  display: none;
+}
+
+/* header css  */
+.headerMainSection {
+  background: #fff;
+  box-shadow: 0px 4px 10px 0px rgba(61, 89, 128, 0.1);
+  padding: 0 50px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 99;
+}
+.navbarExpand01 {
+  padding: 14px 0;
+}
+.navbarBrand01 {
+  color: var(--Primary-Color, #3d5980);
+  text-align: center;
+  font-family: "Noto Sans";
+  font-size: 31.445px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 42px; /* 133.565% */
+  margin-right: 0;
+}
+.navbarBrand img{
+  width: 100%;
+  max-width: 110px;
+}
+/* CountrySelect.css */
+
+.navSelectOption .css-je4924-control {
+  width: 165px !important;
+  border-radius: 40px;
+  height: auto;
+  min-height: 53px !important;
+  color: #2c415a;
+  font-family: "Noto Sans";
+  font-size: 14.25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 19.2px; /* 134.737% */
+  padding: 0 10px;
+}
+
+.navSelectOption .flag {
+  margin-right: 8px; /* Add some spacing between flag and label */
+  font-size: 15px !important;
+}
+.navSelectOption .css-5rmex6-control {
+  width: 165px !important;
+  height: auto;
+  min-height: 53px !important;
+  border: 1px solid #2c415a !important;
+  border-radius: 40px;
+  color: #2c415a;
+  font-family: "Noto Sans";
+  font-size: 14.25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 19.2px; /* 134.737% */
+  padding: 0 10px;
+}
+.css-1u9des2-indicatorSeparator {
+  background: none !important;
+}
+.css-1xc3v61-indicatorContainer {
+  color: #2c415a !important;
+}
+.css-art2ul-ValueContainer2 {
+  padding-right: 0 !important;
+}
+.navSelectOption01 .css-lwy1q3-control {
+  width: 165px !important;
+  height: auto;
+  min-height: 53px !important;
+  border: 1px solid #2c415a !important;
+  border-radius: 40px;
+  color: #2c415a;
+  font-family: "Noto Sans";
+  font-size: 14.25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 19.2px; /* 134.737% */
+  padding: 0 10px;
+}
+.navSelectOption01 .flag {
+  margin-right: 8px; /* Add some spacing between flag and label */
+  font-size: 15px !important;
+}
+.css-19x8pxt-control {
+  width: 165px !important;
+  height: auto;
+  min-height: 53px !important;
+  border: 1px solid #2c415a !important;
+  border-radius: 40px !important;
+  color: #2c415a;
+  font-family: "Noto Sans";
+  font-size: 14.25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 19.2px; /* 134.737% */
+  padding: 0 10px !important;
+}
+.navbarUl01 {
+  gap: 11px;
+  align-items: center;
+}
+.navLink01 {
+  color: #2c415a;
+  text-align: center;
+  font-family: "Noto Sans";
+  font-size: 14.25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 19.2px; /* 134.737% */
+  padding: 0 !important;
+  margin-right: 15px;
+}
+.sendNowBtnTop {
+  color: var(--Default-Neutral-White, #fff);
+  text-align: center;
+  font-family: "Noto Sans";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 19.2px; /* 128% */
+  border-radius: 40px;
+  background: linear-gradient(90deg, #1d5562 0%, #2c7a94 100%);
+  border: none;
+  padding: 18px 0 19px 0;
+  width: 180px;
+}
+.navbarToggler01 {
+  padding: 0;
+  border: none;
+  outline: none;
+}
+.navbarToggler01:focus {
+  box-shadow: none;
+}
+
+/* home css  */
+.manageMaxWidthAllSection {
+  padding: 0 60px;
+}
+.homeSection01 {
+  margin-top: 86px;
+  background-color: #f4f5f7;
+  padding-bottom: 55px;
+}
+.seamLessContent01 {
+  position: relative;
+  padding: 150px 0 0 0;
+  height: 100%;
+}
+.bookPng01 {
+  position: absolute;
+  top: 20px;
+  right: 0;
+  width: 100%;
+  max-width: 138px;
+  height: 224px;
+}
+.downPng01 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  max-width: 260px;
+  height: 196px;
+}
+.seamLessContent02 {
+  width: 100%;
+  max-width: 680px;
+}
+.seamLessContent02 h6 {
+  margin-bottom: 0;
+  color: #2c415a;
+  font-family: "Noto Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 31.2px; /* 173.333% */
+}
+.seamLessContent02 h2 {
+  margin-bottom: 0;
+  color: #2c415a;
+  font-family: "Noto Sans";
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 66px; /* 110% */
+}
+.seamLessContent02 p {
+  margin-bottom: 0;
+  color: #2c415a;
+  font-family: "Noto Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 144.444% */
+  margin-top: 10px;
+  width: 100%;
+  max-width: 590px;
+}
+.seamLessContent02Button {
+  display: flex;
+  gap: 10px;
+  margin-top: 40px;
+}
+.openFreeAccount01 {
+  color: var(--Default-Neutral-White, #fff);
+  text-align: center;
+  font-family: "" Noto Sans "";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 19.2px; /* 128% */
+  border-radius: 40px;
+  background: var(--Linear, linear-gradient(90deg, #1d5562 0%, #2c7a94 100%));
+  border: none;
+  padding: 16px 39px 17px 40px;
+  transition: all 300ms ease-in-out;
+}
+.openFreeAccount01:hover {
+  transform: scale(1.04);
+}
+.openFreeAccount02 {
+  color: #2c415a;
+  background: none;
+  border: 1px solid #2c415a;
+}
+.calculationContent01 {
+  position: relative;
+}
+.dollarPng01 {
+  position: absolute;
+  right: 60px;
+  top: 59px;
+  width: 100%;
+  max-width: 38px;
+  height: 57px;
+}
+.calculationContentCol01 {
+  display: flex;
+  justify-content: center;
+}
+.calculationContent01 {
+  padding-top: 87px;
+}
+.moneyImg01 {
+  width: 100%;
+}
+.downPng02 {
+  display: none;
+}
+.paymentMethodSection01 {
+  border-radius: 20px;
+  background-color: #fff;
+  box-shadow: 2px 3.464px 10px 0px rgba(44, 65, 90, 0.15);
+  height: auto;
+  min-height: 240.062px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  position: relative;
+  top: -50px;
+}
+.paymentContentdiv01 h6 {
+  margin-bottom: 0;
+  color: #2c415a;
+  text-align: center;
+  font-family: "Noto Sans";
+  font-size: 57px;
+  font-style: normal;
+  font-weight: 700;
+}
+.paymentContentdiv01 h6 span {
+  font-weight: 600;
+}
+.paymentContentdiv01 p {
+  margin-bottom: 0;
+  color: #2c415a;
+  text-align: center;
+  font-family: "Noto Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  margin-top: 15px;
+}
+.paymentContentdiv01 {
+  height: 100%;
+}
+.homeSection02 {
+  margin-top: 40px;
+}
+.ratesImg {
+  width: 100%;
+  padding-right: 30px;
+}
+.greatRatesDiv01 {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  max-width: 640px;
+}
+.greatRatesDiv01 p {
+  margin-bottom: 0;
+  color: #2c415a;
+  font-family: "Noto Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 31.2px; /* 173.333% */
+  margin-top: 10px;
+}
+.transparentP {
+  font-weight: 500 !important;
+}
+.greatRatesDiv01 h1 {
+  margin-bottom: 0;
+  color: #2c415a;
+  font-family: "Noto Sans";
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 56px; /* 112% */
+}
+.ratesWorkBtn {
+  color: #2c415a;
+  text-align: center;
+  font-family: Noto Sans;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 19.2px; /* 128% */
+  border-radius: 40px;
+  border: 1px solid #2c415a;
+  padding: 16px 45px 17px 46px;
+  background: none;
+  margin-top: 43px;
+  transition: all 300ms ease-in-out;
+}
+.ratesWorkBtn:hover {
+  transform: scale(1.04);
+}
+.homeSection03 {
+  border-radius: 20px;
+  background: var(--Linear, linear-gradient(90deg, #1d5562 0%, #2c7a94 100%));
+  height: auto;
+  min-height: 373px;
+  padding: 44px 20px;
+  margin-top: 150px;
+}
+.lowFeesContentDiv01 {
+  width: 100%;
+  max-width: 612px;
+  margin: 0 auto;
+}
+.lowFeesContentDiv01 p {
+  margin-bottom: 0;
+  color: var(--Default-Neutral-White, #fff);
+  text-align: center;
+  font-family: "Noto Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 31.2px; /* 173.333% */
+  margin-top: 10px;
+}
+.lowFeesContentDiv01 h3 {
+  margin-bottom: 0;
+  color: var(--Default-Neutral-White, #fff);
+  text-align: center;
+  font-family: "Noto Sans";
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 56px; /* 112% */
+}
+.onePlacesCard {
+  border-radius: 20px;
+  background-color: #fff;
+  box-shadow: 2px 3.464px 24px 0px rgba(106, 105, 194, 0.25);
+  padding: 20px 20px 28px 20px;
+  height: auto;
+  min-height: 338px;
+}
+.onePlacesCard img {
+  width: auto;
+  height: 93px;
+}
+.onePlacesCard h6 {
+  margin-bottom: 0;
+  color: #2c415a;
+  font-family: "Noto Sans";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 31.2px; /* 130% */
+  margin-top: 30px;
+}
+.onePlacesCard p {
+  color: #2c415a;
+  font-family: Noto Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px; /* 150% */
+  margin-bottom: 0;
+  margin-top: 10px;
+}
+.onePlaceRow01 {
+  position: relative;
+  top: -90px;
+}
+.homeSection04 {
+  padding-top: 100px;
+}
+.itWorksContent01 h5 {
+  color: #2c415a;
+  font-family: "Noto Sans";
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 66px; /* 146.667% */
+  text-align: center;
+  margin-bottom: 0;
+}
+.itWorksContent01 p {
+  margin-bottom: 0;
+  color: #2c415a;
+  font-family: "Noto Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 144.444% */
+  text-align: center;
+  margin-top: 10px;
+}
+.worksCard01Row {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+.worksCard01 {
+  width: 100%;
+  max-width: 240px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.worksCard01 img {
+  width: auto;
+  height: 90px;
+}
+.worksCard01 h6 {
+  margin-bottom: 0;
+  color: #2c415a;
+  text-align: center;
+  font-family: "Noto Sans";
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 31.2px; /* 141.818% */
+  margin-top: 10px;
+}
+.pseudoImg {
+  width: 104px;
+}
+.pseudoImg03 {
+  display: none;
+}
+.homeSection05 {
+  margin-top: 130px;
+  border-radius: 20px;
+  background: var(--Linear, linear-gradient(90deg, #1d5562 0%, #2c7a94 100%));
+  padding: 62px 20px;
+}
+.waitingForContent01 p {
+  margin-bottom: 0;
+  color: var(--Default-Neutral-White, #fff);
+  text-align: center;
+  font-family: "Noto Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 31.2px; /* 173.333% */
+  margin-top: 10px;
+}
+.waitingForContent01 h4 {
+  margin-bottom: 0;
+  color: var(--Default-Neutral-White, #fff);
+  text-align: center;
+  font-family: "Noto Sans";
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 56px; /* 112% */
+}
+.waitingForContent01 {
+  width: 100%;
+  max-width: 640px;
+  margin: 0 auto;
+}
+.openFreeAccount03 {
+  padding: 16px 39px 17px 40px;
+  border-radius: 40px;
+  background-color: #fff;
+  border: none;
+  color: #2c415a;
+  text-align: center;
+  font-family: "Noto Sans";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 19.2px; /* 128% */
+  border: 1px solid var(--Default-Neutral-White, #fff);
+  transition: all 300ms ease-in-out;
+}
+.openFreeAccount03:hover {
+  transform: scale(1.04);
+}
+.waitingForContentBtn01 {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 46px;
+}
+.openFreeAccount04 {
+  background: none;
+  color: var(--Default-Neutral-White, #fff);
+  border: 1px solid var(--Default-Neutral-White, #fff);
+}
+.homeSection06 {
+  background: none !important;
+}
+.waitingForContent02 h4 {
+  color: #2c415a !important;
+}
+.waitingForContent02 p {
+  color: #2c415a !important;
+}
+.homeSection08 {
+  background: rgba(44, 65, 90, 0.05);
+  padding: 91px 0;
+}
+.swiperSection01 {
+  padding: 50px 0 130px 0;
+  position: relative;
+}
+.swiperSection01 .swiper-wrapper {
+  position: unset;
+  padding: 20px 0;
+}
+.swiperSection01 .swiper-pagination-fraction,
+.swiper-pagination-custom,
+.swiper-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal {
+  bottom: var(--swiper-pagination-bottom, 90px);
+}
+
+.swiperSection01 .swiper {
+  position: unset;
+}
+.accordionBody01 {
+  padding: 15px 33px 27px 33px;
+  border: none !important;
+}
+.accordionBody01 p {
+  margin-bottom: 0;
+  color: #2c415a;
+  font-family: "Noto Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 144.444% */
+}
+.accordionButton01 {
+  color: #2c415a;
+  font-family: "Noto Sans";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 23.4px; /* 97.5% */
+  padding: 27px 33px;
+
+  background: #fff !important;
+  box-shadow: 2px 3.464px 10px 0px rgba(44, 65, 90, 0.15);
+  margin-top: 18px;
+}
+.accordionButton01:focus {
+  background: none !important;
+  box-shadow: none !important;
+  border: none !important;
+}
+.accordionButton01::after {
+  background-image: url(..);
+  border: none !important;
+}
+.accordionButton01:not(.collapsed)::after {
+  background-image: url(..);
+  border: none !important;
+}
+.accordionMainDiv {
+  margin-top: 43px;
+}
+.accordion {
+  border: none !important;
+}
+:root,
+[data-bs-theme="light"] {
+  --bs-border-width: 0px;
+}
+.accordion-flush .accordion-item:first-child {
+  border: none !important;
+}
+.accordionItem01 {
+  border-radius: 10px !important;
+  border: none !important;
+}
+.accordionFlush .accordion-item .accordion-button,
+.accordion-flush .accordion-item .accordion-button.collapsed {
+  border-radius: 10px !important;
+}
+
+/* swiper css  */
+.swiperCard01 {
+  border-radius: 20px;
+  background: #fff;
+  box-shadow: 2px 3.464px 10px 0px rgba(44, 65, 90, 0.15);
+  width: 100%;
+  max-width: 602px;
+  height: auto;
+  min-height: 357px;
+  padding: 33px 37px;
+}
+.starFillDiv {
+  display: flex;
+  gap: 5px;
+}
+.starFillDiv i {
+  color: #e4ab19;
+  font-size: 18px;
+}
+.swiperCardContent01 h3 {
+  margin-bottom: 0;
+  color: #2c415a;
+  font-family: "Noto Sans";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 31.2px; /* 130% */
+  margin-top: 35px;
+}
+.swiperCardContent01 p {
+  margin-bottom: 0;
+  margin-top: 20px;
+  color: #2c415a;
+  font-family: "Noto Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 144.444% */
+}
+.swiperLogoDiv {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+  margin-top: 35px;
+}
+.swiperLogoDiv img {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+}
+.swiperLogoDiv h6 {
+  margin-bottom: 0;
+  color: #2c415a;
+  font-family: "Noto Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+}
+.swiperLogoDiv p {
+  margin-bottom: 0;
+  color: #2c415a;
+  font-family: "Noto Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  margin-top: 5px;
+}
+:root {
+  --swiper-theme-color: #2c415a;
+}
+.swiper-pagination-bullet {
+  width: var(
+    --swiper-pagination-bullet-width,
+    var(--swiper-pagination-bullet-size, 11px)
+  );
+  height: var(
+    --swiper-pagination-bullet-height,
+    var(--swiper-pagination-bullet-size, 11px)
+  );
+  border-radius: var(--swiper-pagination-bullet-border-radius, 32%);
+}
+
+/* inside dashboard css  */
+.sidebarMainSection01 {
+  width: 100%;
+  max-width: 298px;
+  height: 100vh;
+  background: rgba(44, 65, 90, 0.05);
+  z-index: 990;
+  transition: all 300ms ease-in-out;
+  overflow-y: auto;
+  position: relative;
+  padding: 15px 37px 47px 37px;
+}
+.sidebarMainSection01::-webkit-scrollbar {
+  width: 5px;
+}
+.sidebarMainSection01::-webkit-scrollbar-track {
+  background-color: #eceef2;
+}
+.sidebarMainSection01::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #fff;
+  background-image: -webkit-linear-gradient(
+    top,
+    #e4f5fc 0%,
+    #bfe8f9 50%,
+    #9fd8ef 51%,
+    #2c415a 150%
+  );
+}
+.sidebarUserLogoDiv {
+  padding: 32px 0;
+  position: relative;
+}
+.hideSideBarIcon {
+  position: absolute;
+  top: -2px;
+  right: -28px;
+  font-size: 28px;
+  cursor: pointer;
+  display: none;
+}
+/* profile menu css*/
+.profile {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.userDescDiv {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+.profile h3 {
+  margin-bottom: 0;
+  color: #2c415a;
+  font-family: "Noto Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; /* 150% */
+}
+
+.profile p {
+  margin-bottom: 0;
+  color: #2c415a;
+  font-family: "Noto Sans";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px; /* 133.333% */
+}
+.profile .img-box {
+  position: relative;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.profile .img-box img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* menu (the right one) */
+.menu {
+  position: absolute;
+  top: calc(100% + 20px);
+  right: 0;
+  width: 200px;
+  min-height: 58px;
+  background: #fff;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  opacity: 0;
+  transform: translateY(-10px);
+  visibility: hidden;
+  transition: 300ms;
+}
+.menu::before {
+  content: "";
+  position: absolute;
+  top: -10px;
+  right: 14px;
+  width: 20px;
+  height: 20px;
+  background: #fff;
+  transform: rotate(45deg);
+  z-index: -1;
+}
+.menu.active {
+  opacity: 1;
+  transform: translateY(0);
+  visibility: visible;
+}
+/* menu links */
+
+.menu ul {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  z-index: 10;
+  background: #fff;
+  padding: 5px;
+  margin-bottom: 0;
+}
+.menu ul li {
+  list-style: none;
+}
+
+.menu ul li:hover {
+  background: #eee;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: #000;
+  display: flex;
+  align-items: center;
+  padding: 12px 16px;
+  gap: 6px;
+  color: #2c415a;
+  text-align: center;
+  font-family: "Noto Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+.threeDotsIcon {
+  color: #2c415a;
+  font-size: 17px;
+}
+/* profile menu end*/
+
+/* sidebar item css  */
+.sidebarUlDiv {
+  margin-top: 16px;
+}
+.sidebarUlDiv a {
+  text-decoration: none;
+  width: 100%;
+}
+.sidebarUlDiv a li:hover {
+  background: var(--Linear, linear-gradient(90deg, #1d5562 0%, #2c7a94 100%));
+}
+.navLinkActive {
+  border-radius: 4px;
+  background: var(--Linear, linear-gradient(90deg, #1d5562 0%, #2c7a94 100%));
+}
+.navLinkActive i {
+  color: #ffffff;
+}
+.navLinkActive span {
+  color: #ffffff;
+}
+.navLinkActive li h6 {
+  color: #ffffff !important;
+  font-weight: 600 !important;
+}
+.navLinkActive h6 {
+  color: #ffffff !important;
+  font-weight: 600 !important;
+}
+.sidebarUlDiv a li:hover .sideBarIcon {
+  color: #ffffff;
+}
+
+.sidebarUlDiv a li:hover h6 {
+  color: #ffffff;
+  font-weight: 600;
+}
+.sidebarUlDiv a li {
+  border-radius: 4px;
+  list-style: none;
+  padding: 12px 16px;
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  margin-top: 16px;
+}
+.sidebarUlDiv a li h6 {
+  margin-bottom: 0;
+  color: rgba(44, 65, 90, 0.7);
+  font-family: "Noto Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+.sideBarIconImg {
+  width: 22px;
+  height: 19px;
+}
+
+.sideBarIcon {
+  color: #2c415ab2;
+  font-size: 24px;
+}
+.logoutLiDiv {
+  min-height: 300px;
+  display: flex;
+  align-items: end;
+  width: 100%;
+}
+.logoutLiDiv li {
+  border: 1px solid var(--Linear, #1d5562);
+  opacity: 0.75;
+}
+.logoutLiDiv li:hover {
+  opacity: 1;
+  border: none;
+}
+.sidebarHidden {
+  display: none;
+}
+/* header 2 css  */
+.insideWalletHeaderMainSec {
+  background-color: #fff;
+  box-shadow: 0px 2px 10px 0px rgba(44, 65, 90, 0.1);
+  padding: 13px 71px 12px 31px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  position: relative;
+}
+.insideWalletHeaderMainSec h1 {
+  margin-bottom: 0;
+  color: #2c415a;
+  font-family: "Noto Sans";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; /* 100% */
+}
+.headerSearchInput {
+  padding: 11px 33px 12px 16px;
+  border-radius: 6px;
+  border: 1px solid rgba(44, 65, 90, 0.15);
+  background-color: #fff;
+  width: 100%;
+  min-width: 430px;
+  outline: none;
+  color: #2c415a;
+  font-family: "Noto Sans";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.headerSearchInput::placeholder {
+  color: #2c415a;
+}
+.searchInputDiv01 {
+  position: relative;
+}
+.searchInputDiv01 {
+  display: flex;
+  align-items: center;
+}
+.searchInputDiv01 i {
+  color: #2c415ab2;
+  font-size: 20px;
+  position: absolute;
+  right: 12px;
+  cursor: pointer;
+}
+.headerSearchDiv01 {
+  display: flex;
+  align-items: center;
+  gap: 26px;
+}
+.notifIcon {
+  color: #2c415ab2;
+  font-size: 24px;
+  cursor: pointer;
+}
+.openSidebarIcon {
+  position: absolute;
+  left: 10px;
+  color: #2c415a;
+  font-size: 26px;
+  cursor: pointer;
+  display: none;
+}
+/* manage 2 div css  */
+.appContainer {
+  display: flex;
+}
+.mainContent {
+  width: 100%;
+  height: 100vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+/* overview css  */
+.mangeTwoSection {
+  background: #fff;
+  padding: 21px 18px 50px 18px;
+}
+.headerTxt01 {
+  margin-bottom: 0;
+  color: #2c415a;
+  font-family: "Noto Sans";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.supTitleP01 {
+  margin-bottom: 0;
+  color: #2c415a;
+  font-family: "Noto Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.buttonsGroup01 a {
+  text-decoration: none;
+}
+.buttonsGroup01 {
+  display: flex;
+  gap: 7px;
+}
+.btnPayment01 {
+  color: #2c415a;
+  font-family: "Noto Sans";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border-radius: 8.669px;
+  border: 1px solid rgba(44, 65, 90, 0.15);
+  background: none;
+  padding: 10px 15px;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+.btnPayment01 i {
+  font-size: 14px;
+}
+.titleTxtMainSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+.coinCardMain {
+  border-radius: 4px;
+  background-color: #fff;
+  box-shadow: 0px 2.009px 10.046px 0px rgba(44, 65, 90, 0.15);
+  height: auto;
+  min-height: 108.495px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px;
+}
+.coinCardMain h2 {
+  margin-top: -15px;
+  margin-bottom: 0;
+  color: #000;
+  text-align: center;
+  font-family: "Noto Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24.852px; /* 138.069% */
+}
+.personTxtDiv {
+  display: flex;
+  gap: 4px;
+  margin-top: 5px;
+}
+.personTxtDiv p {
+  margin-bottom: 0;
+  color: #7e7e7e;
+  text-align: center;
+  font-family: "Noto Sans";
+  font-size: 8px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14.497px; /* 181.215% */
+}
+.personTxtDiv .person01 {
+  color: #68cf29;
+  text-align: center;
+  font-family: "Poppins";
+  font-size: 9.665px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14.497px; /* 150% */
+}
+.person02 {
+  color: #ff4c41 !important;
+}
+.coinImg {
+  width: 55.228px;
+  height: 55.228px;
+  border-radius: 50%;
+  position: relative;
+  top: -30px;
+}
+.personTxtDiv img {
+  width: 20.02px;
+  height: 15.188px;
+}
+.currencySection {
+  padding: 50px 0 37px 0;
+}
+.currencyCard01 {
+  border-radius: 3.866px;
+  background-color: #fff;
+  box-shadow: 0px 2.009px 10.046px 0px rgba(44, 65, 90, 0.15);
+  height: auto;
+  min-height: 186px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 15px;
+}
+.currencyImgDiv {
+  width: 55px;
+  height: 55px;
+  border-radius: 100px;
+  box-shadow: 0px 3.452px 3.452px 0px rgba(0, 0, 0, 0.25);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 16px;
+}
+.currencyImgDiv img {
+  width: 100%;
+  height: 100%;
+}
+.currencyCard01 p {
+  margin-bottom: 0;
+  color: #2c415a;
+  text-align: center;
+  font-family: "Noto Sans";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24.852px; /* 207.103% */
+}
+.currencyCard01 h6 {
+  margin-top: 16px;
+  margin-bottom: 0;
+  color: #000;
+  text-align: center;
+  font-family: "Noto Sans";
+  font-size: 20.71px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24.852px; /* 120% */
+}
+.createImg {
+  cursor: pointer;
+}
+/* tables css  */
+/* .tableMainDiv01{
+
+} */
+.theadTr01 th {
+  background: #2c415a !important;
+  color: var(--Default-Neutral-White, #fff);
+  font-family: "Noto Sans";
+  font-size: 13.009px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24.392px; /* 187.5% */
+  text-align: center;
+  padding: 13.187px 8px 12.224px 8px;
+  border: 0.813px solid rgba(44, 65, 90, 0.2);
+}
+.theadTr01 th p {
+  margin-bottom: 0;
+}
+/* .bussinesNameP01{
+  width: 100%;
+  min-width: 325px;
+}
+.amountNameP01{
+  width: 100%;
+  min-width: 283px;
+}
+.rateNameP01{
+  width: 100%;
+  min-width: 290px;
+}
+.valueNameP01{
+  width: 100%;
+  min-width: 120px;
+} */
+.tbodyTr01 td {
+  font-family: "Noto Sans";
+  font-size: 14px;
+  font-style: normal;
+  line-height: 24.392px; /* 174.231% */
+  text-align: center;
+  padding: 12px 8px 10px 8px;
+}
+.nameTd01 {
+  color: #0c266c !important;
+  font-weight: 600;
+  text-align: start !important;
+  padding-left: 24px !important;
+}
+.ammoutTd01 {
+  color: #0c266c !important;
+  font-weight: 400;
+}
+.rateTd01 {
+  color: #2c415a !important;
+  font-weight: 600;
+}
+.valueTd01 {
+  color: #f46d22 !important;
+  font-weight: 500;
+  padding-right: 18px !important;
+}
+.theadTr01Th01 {
+  padding-left: 24px !important;
+  text-align: start !important;
+}
+.theadTr01Th04 {
+  padding-right: 18px !important;
+}
+.tbodyTr01 {
+  border: 0.813px solid rgba(44, 65, 90, 0.2);
+  border-top: none !important;
+}
+.portFolioTableDiv01 {
+  margin-top: 12px;
+}
+.transactionSection {
+  margin-top: 40px;
+}
+.select_box {
+  cursor: pointer;
+  position: relative;
+}
+.custom-select-1 {
+  /* width: 100%; */
+  width: 273px;
+}
+
+.custom-select-2 {
+  /* width: 100%; */
+  width: 133px;
+}
+
+.custom-select-3 {
+  /* width: 100%; */
+  width: 133px;
+}
+
+.selected_option {
+  border-radius: 4px;
+  border: 1px solid rgba(44, 65, 90, 0.15);
+  background-color: #fff;
+  padding: 11px 13.107px 10px 14px;
+  color: #2c415a;
+  font-family: "Noto Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 187.5% */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.selected_option i {
+  font-size: 25px;
+  color: #2c415a;
+}
+
+.option_container {
+  position: absolute;
+  width: 100%;
+  background-color: #f4f5f7;
+  border-radius: 6px;
+  margin-top: 8px;
+  max-height: 110px;
+  overflow-y: auto;
+  transition: 0.3s ease-in-out;
+  height: 0;
+  z-index: 99;
+}
+
+.option_li {
+  padding: 8px 20px;
+  margin-top: 2px;
+  color: #0c266c;
+  display: flex;
+  align-items: center;
+  padding: 12px 16px;
+  font-family: "Noto Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.option_li:hover,
+.option_li.selected {
+  color: #ffffff;
+  background: var(--Linear, linear-gradient(90deg, #1d5562 0%, #2c7a94 100%));
+  border-radius: 0 8px 0 8px;
+}
+
+.option_container::-webkit-scrollbar {
+  width: 4px;
+  background-color: #eee;
+  border-radius: 0 8px 8px 0;
+}
+
+.option_container::-webkit-scrollbar-thumb {
+  background-color: #fff;
+  background-image: -webkit-linear-gradient(
+    top,
+    #e4f5fc 0%,
+    #bfe8f9 50%,
+    #9fd8ef 51%,
+    #2c415a 150%
+  );
+  border-radius: 0 8px 8px 0;
+}
+
+.option_container.active {
+  height: 110px;
+}
+.clearFilterBtn {
+  color: #2c415a;
+  text-align: center;
+  font-family: "Noto Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px; /* 187.5% */
+  border-left: 1px solid rgba(44, 65, 90, 0.1) !important;
+  background-color: #ffffff;
+  padding: 11px 14px 10px 12px;
+  border: none;
+  width: 128px;
+}
+.selectorDiv01 {
+  display: flex;
+  gap: 9px;
+}
+.transactionTxtMainDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* table 2 css  */
+.tbodyTr02 {
+  border: 0.813px solid rgba(44, 65, 90, 0.2);
+  border-top: none !important;
+}
+.tbodyTr02 td {
+  text-align: center;
+}
+.tableTitle01 {
+  margin-bottom: 0;
+  color: #0c266c;
+  font-family: "Noto Sans";
+  font-size: 14.635px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24.392px; /* 166.667% */
+}
+.businesTxtDiv01 {
+  height: auto;
+  min-height: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.businesTxtDiv01 p {
+  margin-bottom: 0;
+  color: #0c266c;
+  font-family: "Noto Sans";
+  font-size: 13.009px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 17.888px; /* 137.5% */
+}
+.userNameTd01 p {
+  color: #2c415a;
+  font-weight: 600;
+}
+.progressTxt01 {
+  color: #e4ab19 !important;
+  font-weight: 600 !important;
+}
+.progressTxtGreen02 {
+  color: #49c96d !important;
+}
+
+.progressTxtRed03 {
+  color: #f50100 !important;
+}
+.progressTxtPurple04 {
+  color: #a70ac1 !important;
+}
+.progressTxtYellow02 {
+  color: #e4ab19 !important;
+}
+
+/* payment screenn css  */
+.paymentMainSection {
+  border-radius: 4px;
+  background-color: #fff;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.08);
+  padding: 29px 30px;
+  width: 100%;
+  max-width: 860px;
+  margin: 0 auto;
+}
+.paymentTitle {
+  color: #2c415a;
+  font-family: "Noto Sans";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 36px;
+  margin-bottom: 0;
+}
+.paymentCards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  border: 1px solid rgba(44, 65, 90, 0.2);
+  background-color: #fff;
+  padding: 12px 17px;
+  width: 100%;
+  /* max-width: 250px; */
+  margin-top: 17px;
+}
+.paymentCards p {
+  margin-bottom: 0;
+  color: #2c415a;
+  font-family: "Noto Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px; /* 200% */
+}
+.paymentReceiveTitle {
+  padding-top: 20px;
+}
+.btnSelected {
+  border: 2px solid #2c415a;
+  background-color: rgba(44, 65, 90, 0.05);
+}
+.paymentButtonSection {
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(44, 65, 90, 0.2);
+}
+.paymentForm {
+  padding: 20px 0 5px 0;
+  border-bottom: 1px solid rgba(44, 65, 90, 0.2);
+  margin-bottom: 20px;
+}
+.formLabel {
+  color: #2c415a;
+  font-family: "Noto Sans";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px; /* 137.5% */
+  margin-bottom: 8px;
+}
+.formInput {
+  color: rgba(44, 65, 90, 0.6) !important;
+  font-family: "Noto Sans";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border-radius: 4px;
+  border: 1px solid rgba(44, 65, 90, 0.2) !important;
+  background-color: #fff;
+  padding: 14px 16px 15px 16px;
+  outline: none;
+}
+.formInput:focus {
+  box-shadow: none;
+}
+.formInput::placeholder {
+  color: rgba(44, 65, 90, 0.6) !important;
+}
+.amountTxtDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.amountTxtDiv p {
+  margin-bottom: 0;
+  color: #2c415a;
+  font-family: "Noto Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32.4px; /* 180% */
+}
+.amountTxtDiv h6 {
+  margin-bottom: 0;
+  color: #2c415a;
+  text-align: right;
+  font-family: "Noto Sans";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32.4px; /* 147.273% */
+}
+.payButton {
+  border-radius: 4px;
+  background: var(--Linear, linear-gradient(90deg, #1d5562 0%, #2c7a94 100%));
+  padding: 11px 5px;
+  border: none;
+  width: 100%;
+  color: var(--Default-Neutral-White, #fff);
+  text-align: center;
+  font-family: "Noto Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30px; /* 166.667% */
+  margin-top: 42px;
+  transition: all 0.6s ease-in-out;
+}
+.payButton:hover {
+  transform: scale(1.02);
+  opacity: 0.9;
+}
+
+/* notifictions css  */
+.notifictionHeading {
+  color: #2c415a;
+  font-family: "Noto Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; /* 142.857% */
+  letter-spacing: 0.1px;
+  padding-top: 25px;
+}
+.notificationCard {
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0px 2px 10px 0px rgba(44, 65, 90, 0.15);
+  padding: 12px 13px 12px 13px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.notificationTxtDiv {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.notificationTxtDiv img {
+  border-radius: 50px;
+  width: 40px;
+  height: 40px;
+}
+.notificationTxtDiv h6 {
+  margin-bottom: 0;
+  color: #2c415a;
+  font-family: "Noto Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.notificationTxtDiv p {
+  margin-bottom: 0;
+  color: rgba(44, 65, 90, 0.7);
+  font-family: "Noto Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.completedButton {
+  color: #2c415a;
+  font-family: "Noto Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border-radius: 2px;
+  background-color: rgba(44, 65, 90, 0.1);
+  padding: 7px 27px 7px 27px;
+  border: none;
+}
+/* account css  */
+.accountMainSection {
+  border-radius: 8.753px;
+  background-color: #fff;
+  box-shadow: 0px 3.501px 22.758px 0px rgba(44, 65, 90, 0.1);
+  padding: 28px 26px 33px 26px;
+}
+.imageImageLabel {
+  cursor: pointer;
+  border-radius: 3.501px;
+  border: 0.875px solid #2c415a;
+  background-color: #fff;
+  padding: 13.005px 26.992px 14.265px 25.997px;
+  color: #2c415a;
+  font-family: "Noto Sans";
+  font-size: 14.005px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26.259px; /* 187.5% */
+}
+.uploadedImageDiv {
+  width: 70.025px;
+  height: 70.025px;
+}
+.uploadedImageDiv img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.userNameDiv h4 {
+  margin-bottom: 0;
+  color: #2c415a;
+  font-family: "Noto Sans";
+  font-size: 15.756px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20.482px; /* 130% */
+}
+.uploadImageMainDiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 8.753px;
+  background-color: rgba(44, 65, 90, 0.05);
+  padding: 26.259px 26.26px 26.259px 26.259px;
+}
+.uploadedImageGroup {
+  display: flex;
+  align-items: center;
+  gap: 17px;
+}
+.userNameDiv p {
+  margin-bottom: 0;
+  color: #2c415a;
+  font-family: "Noto Sans";
+  font-size: 15.756px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26.259px; /* 166.667% */
+}
+.profileForm {
+  margin-top: 27px;
+}
+.labelDiv {
+  display: flex;
+  justify-content: space-between;
+}
+.inputError {
+  color: #e4605f;
+}
+.inputFill {
+  color: #49c96d !important;
+}
+.formSaveButton {
+  color: var(--Default-Neutral-White, #fff);
+  text-align: center;
+  font-family: "Noto Sans";
+  font-size: 15.756px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 26.259px; /* 166.667% */
+  border-radius: 3.501px;
+  background: var(--Linear, linear-gradient(90deg, #1d5562 0%, #2c7a94 100%));
+  padding: 9.628px 0px 8.888px 0px;
+  width: 100%;
+  max-width: 472px;
+  margin: 0 auto;
+  border: none;
+  margin-top: 70px;
+  transition: all 0.4s ease-in-out;
+}
+.formSaveButton:hover {
+  transform: scale(1.02);
+  opacity: 0.9;
+}
+/* setting page css  */
+.navTabsUl {
+  gap: 5px;
+}
+.navTabsButton {
+  padding: 12.254px 48.592px 11.514px 49.018px;
+  border-radius: 3.501px;
+  border: 0.875px solid #2c415a;
+  color: #2c415a !important;
+  text-align: center;
+  font-family: "Noto Sans";
+  font-size: 15.756px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal; /* 166.667% */
+}
+.navTabsButton.active {
+  color: var(--Default-Neutral-White, #fff) !important;
+  background-color: #2c415a !important;
+}
+.navTabsContentMainSection {
+  padding-top: 44px;
+}
+.settingHeadingDiv {
+  width: 100%;
+  padding-bottom: 40px;
+}
+.settingHeadingDiv h5 {
+  margin-bottom: 0;
+  color: #2c415a;
+  font-family: "Noto Sans";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32.4px; /* 101.25% */
+  text-align: center;
+}
+.settingHeadingDiv p {
+  margin-top: 5px;
+  margin-bottom: 0;
+  color: #2c415a;
+  font-family: "Noto Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32.4px; /* 180% */
+  text-align: center;
+}
+.noitificationHeadDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+.noitificationHeadDiv h1 {
+  margin-bottom: 0;
+  color: #2c415a;
+  font-family: "Noto Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32.4px; /* 162% */
+}
+.checkInput[type="checkbox"] {
+  height: 0;
+  width: 0;
+  visibility: hidden;
+}
+
+.checkInputLabel {
+  cursor: pointer;
+  text-indent: -9999px;
+  width: 48px;
+  height: 24px;
+  background: grey;
+  display: block;
+  border-radius: 100px;
+  position: relative;
+}
+
+.checkInputLabel:after {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: 5px;
+  width: 18px;
+  height: 18px;
+  background: #fff;
+  border-radius: 90px;
+  transition: 0.3s;
+}
+
+.checkInput:checked + .checkInputLabel {
+  background: var(--Support-support-success, #24a148);
+}
+
+.checkInput:checked + .checkInputLabel:after {
+  left: calc(100% - 5px);
+  transform: translateX(-100%);
+}
+
+.checkInputLabel:active:after {
+  width: 40px;
+}
+
+.checkInputLabel.checked:after {
+  left: calc(100% - 5px);
+  transform: translateX(-100%);
+}
+.eWalletText {
+  color: #2c415a;
+  font-family: "Noto Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32.4px; /* 162% */
+}
+.bsicCol {
+  margin-top: 2.5rem;
+}
+.errorLabelConfg {
+  font-size: 12px !important;
+}
+.swapMainSection {
+  height: auto;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+/* swap page css  */
+.swapContainer {
+  padding: 44px 19px 44px 20px;
+  background-color: #fff;
+  box-shadow: 0px 2px 10px 0px rgba(44, 65, 90, 0.15);
+  width: 100%;
+  max-width: 549px;
+  margin: auto;
+}
+.bitcoinSelectSection {
+  width: 100%;
+  padding: 17px 17.5px 23px 18.5px;
+  border-radius: 10px;
+  background-color: rgba(44, 65, 90, 0.05);
+  margin-bottom: 33px;
+}
+.bitcoinBalanceDiv {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+}
+.bitcoinBalanceDiv h6 {
+  margin-bottom: 0;
+  color: #2c415a;
+  text-align: center;
+  font-family: "Noto Sans";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal; /* 112.5% */
+}
+.bitcoinBalanceDiv sub {
+  color: #2c415a;
+  font-family: "Noto Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px;
+  position: relative;
+  top: -1px;
+}
+.bitcoinBalanceDiv p {
+  margin-bottom: 0;
+  color: #2c415a;
+  text-align: center;
+  font-family: "Noto Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px; /* 225% */
+}
+.countryNumDiv {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+#countryCode {
+  position: absolute;
+  left: 53px;
+  color: rgba(44, 65, 90, 0.6);
+  font-family: "Noto Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.PhoneInputInput {
+  color: rgba(44, 65, 90, 0.6);
+  font-family: "Noto Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  outline: none;
+  border: none;
+}
+:root {
+  --PhoneInputCountryFlag-height: 16px;
+  --PhoneInputCountrySelectArrow-width: 7px;
+  --PhoneInputCountrySelectArrow-color--focus: #2c415a !important;
+  --PhoneInputCountrySelectArrow-color: #2c415a !important;
+}
+.PhoneInputCountryIcon--border {
+  box-shadow: none !important;
+}
+
+.swap_select_box {
+  cursor: pointer;
+  position: relative;
+}
+
+.swap_selected_option {
+  background: none;
+  border-radius: 3.501px;
+  border: 0.875px solid rgba(44, 65, 90, 0.2);
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 13.086px 13.445px 13.97px 13.445px;
+  color: #2c415a;
+  font-family: "Noto Sans";
+  font-size: 14.005px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.swap_selected_option i {
+  font-size: 23px;
+  color: #6a707c;
+}
+
+.swap_option_container {
+  position: absolute;
+  width: 100%;
+  background-color: #f4f5f7;
+  border-radius: 6px;
+  margin-top: 8px;
+  max-height: 110px;
+  overflow-y: auto;
+  transition: 0.3s ease-in-out;
+  height: 0;
+  z-index: 20;
+}
+
+.swap_option_li {
+  padding: 8px 13px;
+  margin-top: 2px;
+  color: #2c415a;
+  font-family: "Noto Sans";
+  font-size: 14.005px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px; /* 178.507% */
+}
+
+.swap_option_li:hover,
+.swap_option_li.selected {
+  color: #ffffff;
+  background: var(--Linear, linear-gradient(90deg, #1d5562 0%, #2c7a94 100%));
+  border-radius: 0 8px 0 8px;
+}
+
+.swap_option_container::-webkit-scrollbar {
+  width: 4px;
+  background-color: #eee;
+  border-radius: 0 8px 8px 0;
+}
+
+.swap_option_container::-webkit-scrollbar-thumb {
+  background: var(--Linear, linear-gradient(90deg, #1d5562 0%, #2c7a94 100%));
+  border-radius: 0 8px 8px 0;
+}
+
+.containerActive {
+  min-height: 200px;
+}
+.totalPrice p {
+  font-weight: 500 !important;
+}
+.covertTxt {
+  display: flex;
+  justify-content: center;
+  padding: 5px 0;
+  border-bottom: 1px solid rgba(44, 65, 90, 0.05);
+}
+.covertTxt p {
+  font-weight: 500 !important;
+}
+.totalPriceSection {
+  padding-bottom: 33px;
+  border-bottom: 1px solid rgba(44, 65, 90, 0.05);
+}
+.swapButon {
+  border-radius: 3.501px;
+  padding: 9.628px 0px 9.372px 0px;
+  background: var(--Linear, linear-gradient(90deg, #1d5562 0%, #2c7a94 100%));
+  color: var(--Default-Neutral-White, #fff);
+  text-align: center;
+  font-family: "Noto Sans";
+  font-size: 15.756px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 26.259px; /* 166.667% */
+  width: 100%;
+  border: none;
+  margin-top: 33px;
+
+  transition: all 0.6s ease-in-out;
+}
+.swapButon:hover {
+  transform: scale(1.02);
+  opacity: 0.9;
+}
+.selectorSection {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.swapImage {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  top: 129px;
+}
+@media screen and (max-width: 1400px) {
+  .coinImg {
+    width: 46.228px;
+    height: 46.228px;
+    top: -26px;
+  }
+  .coinCardMain h2 {
+    margin-top: -13px;
+    font-size: 17px;
+    line-height: 23.852px;
+  }
+  .sidebarMainSection01 {
+    max-width: 280px;
+    padding: 14px 30px 41px 30px;
+  }
+  .sidebarUserLogoDiv {
+    padding: 30px 0;
+  }
+
+  .searchInputDiv01 i {
+    font-size: 19px;
+  }
+  .notifIcon {
+    font-size: 23px;
+  }
+  .headerSearchInput {
+    padding: 10px 33px 11px 16px;
+    min-width: 410px;
+  }
+  .insideWalletHeaderMainSec {
+    padding: 12px 60px 12px 30px;
+  }
+  .headerTxt01 {
+    font-size: 23px;
+  }
+  .supTitleP01 {
+    font-size: 15px;
+  }
+  .btnPayment01 {
+    padding: 9px 14px;
+    gap: 7px;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .swiperCard01 {
+    min-height: 357px;
+    padding: 30px 32px;
+  }
+  .swiperCardContent01 h3 {
+    font-size: 22px;
+    margin-top: 26px;
+  }
+  .swiperCardContent01 p {
+    margin-top: 16px;
+    font-size: 16px;
+  }
+  .swiperLogoDiv {
+    margin-top: 28px;
+  }
+  .swiperSection01 {
+    padding: 40px 0 122px 0;
+  }
+  .worksCard01 img {
+    height: 85px;
+  }
+  .worksCard01 h6 {
+    font-size: 18px;
+  }
+  .pseudoImg {
+    width: 98px;
+  }
+  .homeSection04 {
+    padding-top: 85px;
+  }
+  .onePlacesCard p {
+    font-size: 13px;
+  }
+  .onePlacesCard h6 {
+    font-size: 23px;
+  }
+  .greatRatesDiv01 p {
+    font-size: 16px;
+  }
+  .ratesWorkBtn {
+    font-size: 15px;
+    padding: 14px 40px 16px 40px;
+    margin-top: 40px;
+  }
+  .greatRatesDiv01 {
+    max-width: 546px;
+  }
+  .greatRatesDiv01 h1 {
+    font-size: 45px;
+  }
+  .paymentContentdiv01 h6 {
+    font-size: 50px;
+  }
+  .paymentContentdiv01 p {
+    font-size: 17px;
+    margin-top: 14px;
+  }
+  .bookPng01 {
+    max-width: 120px;
+    height: 192px;
+  }
+  .seamLessContent02 h6 {
+    font-size: 16px;
+  }
+  .seamLessContent02 h2 {
+    font-size: 52px;
+    line-height: 61px;
+  }
+  .seamLessContent02 p {
+    font-size: 16px;
+    max-width: 515px;
+  }
+  .openFreeAccount01 {
+    font-size: 14px;
+    padding: 15px 35px 15px 35px;
+  }
+  .downPng01 {
+    max-width: 228px;
+    height: 160px;
+  }
+  .dollarPng01 {
+    position: absolute;
+    right: 60px;
+    top: 54px;
+    max-width: 33px;
+    height: 54px;
+  }
+  .seamLessContent01 {
+    padding: 123px 0 0 0;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .swapContainer {
+    padding: 38px 19px 38px 19px;
+  }
+  .bitcoinBalanceDiv h6 {
+    font-size: 30px;
+  }
+  .emptyCol {
+    display: none;
+  }
+  .bsicCol {
+    margin-top: 0.5rem;
+  }
+  .settingHeadingDiv h5 {
+    font-size: 30px;
+  }
+  .settingHeadingDiv p {
+    font-size: 16px;
+    line-height: normal;
+  }
+  .navTabsContentMainSection {
+    padding-top: 38px;
+  }
+  .navTabsButton {
+    padding: 11.254px 42.592px 10.514px 42.018px;
+  }
+  .imageImageLabel {
+    padding: 11.005px 21.992px 12.265px 21.997px;
+  }
+  .uploadImageMainDiv {
+    padding: 24.259px 24.26px 24.259px 24.259px;
+  }
+  .uploadedImageDiv {
+    width: 65.025px;
+    height: 65.025px;
+  }
+  .userNameDiv p {
+    font-size: 14.756px;
+    line-height: 21.259px;
+  }
+  .formLabel {
+    font-size: 14px;
+  }
+  .completedButton {
+    font-size: 13px;
+    padding: 7px 24px 7px 24px;
+  }
+  .notificationTxtDiv {
+    gap: 20px;
+  }
+  .notificationTxtDiv h6 {
+    font-size: 15px;
+  }
+  .notificationTxtDiv p {
+    font-size: 13px;
+  }
+  .payButton {
+    padding: 10px 5px;
+    font-size: 16px;
+    line-height: 30px;
+    margin-top: 39px;
+  }
+  .amountTxtDiv h6 {
+    font-size: 20px;
+    line-height: 21.4px;
+  }
+  .amountTxtDiv p {
+    font-size: 17px;
+    line-height: 21.4px;
+  }
+  .paymentCards p {
+    font-size: 18px;
+    line-height: 34px;
+  }
+  .formInput {
+    padding: 12px 16px 13px 16px;
+    font-size: 15px;
+  }
+  .formSaveButton {
+    font-size: 14.756px;
+    padding: 8.628px 0px 9.888px 0px;
+    max-width: 432px;
+    margin-top: 55px;
+  }
+  .option_li {
+    padding: 10px 16px;
+    font-size: 15px;
+  }
+  .transactionTxtMainDiv {
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  .sidebarMainSection01 {
+    max-width: 260px;
+    padding: 12px 25px 41px 25px;
+  }
+  .profile h3 {
+    font-size: 15px;
+    line-height: 22px;
+  }
+  .userDescDiv {
+    gap: 11px;
+  }
+  .sideBarIcon {
+    font-size: 22px;
+  }
+  .sideBarIconImg {
+    width: 20px;
+    height: 18px;
+  }
+  .profile p {
+    font-size: 11px;
+    line-height: 14px;
+  }
+  .sidebarUlDiv a li {
+    padding: 12px 16px;
+    gap: 11px;
+    margin-top: 15px;
+  }
+  .sidebarUlDiv a li h6 {
+    font-size: 15px;
+    line-height: 22px;
+  }
+  .insideWalletHeaderMainSec h1 {
+    font-size: 22px;
+    line-height: 23px;
+  }
+  .insideWalletHeaderMainSec {
+    padding: 12px 40px 12px 25px;
+  }
+  .headerSearchInput {
+    padding: 10px 33px 11px 16px;
+    min-width: 390px;
+  }
+  .btnPayment01 i {
+    font-size: 13px;
+  }
+  .currencySection {
+    padding: 40px 0 35px 0;
+  }
+  .currencyImgDiv {
+    width: 50px;
+    height: 50px;
+    margin-top: 13px;
+  }
+  .currencyCard01 h6 {
+    margin-top: 15px;
+    font-size: 18.71px;
+    line-height: 22.852px;
+  }
+  .currencyCard01 {
+    min-height: 176px;
+  }
+  .theadTr01 th {
+    font-size: 12.009px;
+    line-height: 20.392px;
+    padding: 11.187px 8px 10.224px 8px;
+  }
+  .theadTr01Th01 {
+    padding-left: 20px !important;
+    text-align: start !important;
+  }
+  .tbodyTr01 td {
+    font-size: 12px;
+    line-height: 22.392px;
+    padding: 11px 7px 9px 7px;
+  }
+  .selected_option {
+    padding: 10px 12.107px 9px 12px;
+    font-size: 15px;
+    line-height: 25px;
+  }
+  .tableTitle01 {
+    font-size: 12.635px;
+    line-height: 22.392px;
+  }
+  .businesTxtDiv01 p {
+    font-size: 11.009px;
+    line-height: 15.888px;
+  }
+  .businesTxtDiv01 {
+    min-height: 44px;
+  }
+  .selected_option i {
+    font-size: 23px;
+  }
+  .nameTd01 {
+    padding-left: 20px !important;
+  }
+  .headerSearchDiv01 {
+    gap: 21px;
+  }
+  .btnPayment01 {
+    padding: 8px 13px;
+    gap: 6px;
+  }
+  .headerTxt01 {
+    font-size: 22px;
+  }
+  .btnPayment01 {
+    font-size: 11px;
+  }
+  .custom-select-1 {
+    width: 238px;
+  }
+  .custom-select-2 {
+    width: 122px;
+  }
+  .custom-select-2 {
+    width: 122px;
+  }
+  .clearFilterBtn {
+    font-size: 14px;
+    line-height: 25px;
+    width: 113px;
+  }
+  /* .transactionTxtMainDiv {
+  align-items: unset;
+} */
+  .supTitleP01 {
+    font-size: 14px;
+  }
+  .coinImg {
+    width: 42.228px;
+    height: 42.228px;
+    top: -24px;
+  }
+  .coinCardMain h2 {
+    margin-top: -11px;
+    font-size: 15px;
+    line-height: 21.852px;
+  }
+  .personTxtDiv .person01 {
+    font-size: 8.665px;
+  }
+  .personTxtDiv img {
+    width: 16.02px;
+    height: 15.188px;
+  }
+  .coinCardMain {
+    min-height: 100.495px;
+  }
+  .swiperSection01 {
+    padding: 20px 0 110px 0;
+  }
+  .swiperSection01 .swiper-pagination-fraction,
+  .swiper-pagination-custom,
+  .swiper-horizontal > .swiper-pagination-bullets,
+  .swiper-pagination-bullets.swiper-pagination-horizontal {
+    bottom: var(--swiper-pagination-bottom, 70px);
+  }
+  .accordionButton01 {
+    font-size: 22px;
+    padding: 25px 33px;
+  }
+  .homeSection08 {
+    padding: 80px 0;
+  }
+  .homeSection05 {
+    margin-top: 115px;
+    padding: 55px 20px;
+  }
+  .accordionBody01 p {
+    font-size: 16px;
+    line-height: 23px;
+  }
+  .waitingForContent01 h4 {
+    font-size: 45px;
+  }
+  .waitingForContent01 p {
+    font-size: 16px;
+    line-height: 25.2px;
+  }
+  .openFreeAccount03 {
+    padding: 15px 35px 16px 35px;
+    font-size: 14px;
+    line-height: 17.2px;
+  }
+  .waitingForContent01 {
+    max-width: 573px;
+  }
+  .homeSection04 {
+    padding-top: 70px;
+  }
+  .itWorksContent01 h5 {
+    font-size: 40px;
+  }
+  .itWorksContent01 p {
+    font-size: 16px;
+    margin-top: 7px;
+  }
+  .worksCard01 img {
+    height: 70px;
+  }
+  .worksCard01Row {
+    margin-top: 70px;
+  }
+  .worksCard01 h6 {
+    font-size: 16px;
+  }
+  .pseudoImg {
+    width: 85px;
+  }
+  .lowFeesContentDiv01 {
+    max-width: 559px;
+  }
+  .homeSection03 {
+    min-height: 350px;
+    padding: 35px 20px;
+    margin-top: 150px;
+  }
+  .onePlacesCard img {
+    height: 80px;
+  }
+  .onePlacesCard h6 {
+    font-size: 20px;
+    margin-top: 25px;
+  }
+  .onePlacesCard p {
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .onePlacesCard {
+    padding: 17px 17px 28px 17px;
+    min-height: 310px;
+  }
+  .lowFeesContentDiv01 p {
+    font-size: 16px;
+  }
+
+  .lowFeesContentDiv01 h3 {
+    font-size: 45px;
+  }
+  .homeSection02 {
+    margin-top: 30px;
+  }
+  .greatRatesDiv01 p {
+    font-size: 13px;
+    line-height: 20.2px;
+  }
+  .greatRatesDiv01 h1 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  .ratesWorkBtn {
+    font-size: 14px;
+    padding: 13px 35px 14px 35px;
+    margin-top: 30px;
+  }
+  .paymentContentdiv01 h6 {
+    font-size: 45px;
+  }
+  .paymentContentdiv01 p {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  .paymentMethodSection01 {
+    min-height: 210.062px;
+    top: -45px;
+  }
+  .homeSection01 {
+    margin-top: 73px;
+    padding-bottom: 44px !important;
+  }
+  .manageMaxWidthAllSection {
+    padding: 0 50px 0 50px;
+  }
+  .bookPng01 {
+    max-width: 108px;
+    height: 150px;
+  }
+  .seamLessContent02 h6 {
+    font-size: 14px;
+  }
+  .seamLessContent02 h2 {
+    font-size: 43px;
+    line-height: 57px;
+  }
+  .seamLessContent02 p {
+    font-size: 14px;
+    max-width: 440px;
+  }
+  .seamLessContent01 {
+    padding: 89px 0 0 0;
+  }
+  .openFreeAccount01 {
+    font-size: 13px;
+    padding: 13px 30px 13px 30px;
+  }
+  .downPng01 {
+    max-width: 178px;
+    height: 148px;
+  }
+  .calculationContent01 {
+    padding-top: 75px;
+  }
+  .dollarPng01 {
+    position: absolute;
+    right: 48px;
+    top: 54px;
+    max-width: 31px;
+    height: 47px;
+  }
+  .seamLessContent02 {
+    max-width: 545px;
+  }
+  .headerMainSection {
+    padding: 0 40px;
+  }
+  .navbarBrand01 {
+    font-size: 28.445px;
+    line-height: 37px;
+  }
+  .navSelectOption01 .css-lwy1q3-control {
+    width: 150px !important;
+    min-height: 49px !important;
+    font-size: 13.25px;
+    line-height: 17.2px;
+    padding: 0 7px !important;
+  }
+  .css-19x8pxt-control {
+    width: 150px !important;
+    min-height: 49px !important;
+    font-size: 13.25px;
+    line-height: 17.2px;
+    padding: 0 7px !important;
+  }
+  .navSelectOption01 .flag {
+    margin-right: 5px; /* Add some spacing between flag and label */
+    font-size: 14px !important;
+  }
+  .navSelectOption .css-je4924-control {
+    width: 150px !important;
+    min-height: 49px !important;
+    font-size: 13.25px;
+    line-height: 17.2px;
+    padding: 0 7px !important;
+  }
+  .navSelectOption .css-5rmex6-control {
+    width: 150px !important;
+    min-height: 49px !important;
+    font-size: 13.25px;
+    line-height: 17.2px;
+    padding: 0 7px !important;
+  }
+  .navSelectOption .flag {
+    margin-right: 5px; /* Add some spacing between flag and label */
+    font-size: 14px !important;
+  }
+  .css-tj5bde-Svg {
+    height: 23px;
+  }
+  .navLink01 {
+    font-size: 13.25px;
+    line-height: 17.2px;
+    margin-left: 1.3rem;
+  }
+  .sendNowBtnTop {
+    font-size: 13px;
+    line-height: 17.2px;
+    padding: 16px 0 17px 0;
+    width: 160px;
+  }
+  .navbarExpand01 {
+    padding: 12px 0;
+  }
+  .otpInput01 {
+    font-size: 47.357px;
+  }
+  .formContentDiv01 h2 {
+    font-size: 35px;
+  }
+  .formContentDiv01 p {
+    font-size: 16px;
+  }
+  .formContentDiv01 {
+    max-width: 350px;
+  }
+  .accountsInput {
+    font-size: 14px;
+    padding: 13px 22px;
+  }
+  /* .accountsCheckInput {
+    width: 16.2px;
+    height: 16.2px;
+  } */
+  .accountsLabel {
+    font-size: 14px;
+  }
+  .accountButton01 {
+    font-size: 14px;
+    padding: 15px 0px 16px 0px;
+    margin-top: 45px;
+  }
+  .accountButton02 {
+    font-size: 14px;
+    padding: 15px 0px 16px 0px;
+    margin-top: 20px;
+  }
+
+  .formContentDiv02 h3 {
+    font-size: 35px;
+  }
+  .formContentDiv02 p {
+    font-size: 16px;
+  }
+  .formContentDiv02 {
+    max-width: 350px;
+  }
+  .formContentDiv02 h6 {
+    font-size: 14px;
+    margin-top: 20px;
+  }
+  .socialItemDiv img {
+    width: 44px;
+    height: 44px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .settingHeadingDiv h5 {
+    font-size: 28px;
+  }
+  .navTabsButton {
+    padding: 10.254px 37.592px 10.514px 37.018px;
+    font-size: 14.756px;
+  }
+  .noitificationHeadDiv h1 {
+    font-size: 18px;
+    line-height: 29.4px;
+  }
+  .checkInputLabel:after {
+    top: 3px;
+    width: 16px;
+    height: 16px;
+  }
+  .settingHeadingDiv p {
+    font-size: 14px;
+    line-height: normal;
+  }
+  .checkInputLabel {
+    width: 46px;
+    height: 22px;
+  }
+  .paymentMainSection {
+    padding: 20px 27px;
+  }
+  .menu {
+    min-height: 56px;
+  }
+  .menu ul li a {
+    padding: 11px 15px;
+  }
+  .hideSideBarIcon {
+    right: -18px;
+  }
+  .option_li {
+    padding: 10px 15px;
+    font-size: 14px;
+  }
+  .selectorDiv01 {
+    flex-wrap: wrap;
+  }
+  .currencyCard01 h6 {
+    margin-top: 14px;
+    font-size: 15.71px;
+    line-height: 22.852px;
+  }
+  .coinImg {
+    width: 38.228px;
+    height: 39.228px;
+    top: -23px;
+  }
+  .selected_option {
+    padding: 9px 12.107px 10px 12px;
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .clearFilterBtn {
+    font-size: 14px;
+    line-height: 19px;
+    width: 121px;
+    padding: 12px 14px 11px 12px;
+  }
+  .bussinesNameP01 {
+    width: 100%;
+    min-width: 190px;
+  }
+  .amountNameP01 {
+    width: 100%;
+    min-width: 170px;
+  }
+  .rateNameP01 {
+    width: 100%;
+    min-width: 180px;
+  }
+  .valueNameP01 {
+    width: 100%;
+    min-width: 160px;
+  }
+  .portFolioTableDiv01 {
+    overflow-x: scroll;
+    width: 100%;
+    max-width: 1100px;
+  }
+  .portFolioTableDiv01::-webkit-scrollbar {
+    height: 5px;
+  }
+  .businesTxtDiv01 {
+    min-height: 41px;
+  }
+  .portFolioTableDiv01::-webkit-scrollbar-track {
+    background-color: #eceef2;
+  }
+  .portFolioTableDiv01::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #fff;
+    background-image: -webkit-linear-gradient(top, #2c415a 51%, #9fd8ef 100%);
+  }
+  .userNameCol {
+    width: 100%;
+    min-width: 180px;
+  }
+  .dateCol {
+    width: 100%;
+    min-width: 170px;
+  }
+  .transactionCol {
+    width: 100%;
+    min-width: 200px;
+  }
+  .statusCol {
+    width: 100%;
+    min-width: 170px;
+  }
+  .amountCol {
+    width: 100%;
+    min-width: 190px;
+  }
+  .sidebarMainSection01 {
+    display: none;
+    position: absolute;
+    z-index: 999;
+  }
+  .sidebarHidden {
+    display: block;
+    background: #f4f5f7;
+  }
+  .hideSideBarIcon {
+    display: block;
+  }
+  .openSidebarIcon {
+    display: block;
+  }
+  .insideWalletHeaderMainSec {
+    padding: 13px 71px 12px 40px;
+  }
+  .homeSection08 {
+    padding: 70px 0;
+  }
+  .swiperLogoDiv h6 {
+    font-size: 18px;
+  }
+  .swiperLogoDiv p {
+    font-size: 13px;
+  }
+  .swiperCard01 {
+    min-height: 357px;
+    padding: 25px 28px;
+  }
+  .swiperCardContent01 h3 {
+    margin-top: 20px;
+  }
+  .accordionBody01 p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .accordionButton01 {
+    font-size: 20px;
+    padding: 23px 30px;
+  }
+  .accordionBody01 {
+    padding: 15px 30px 25px 30px;
+  }
+  .homeSection05 {
+    margin-top: 100px;
+    padding: 50px 20px;
+  }
+  .waitingForContent01 p {
+    font-size: 14px;
+    line-height: 22.2px;
+    margin-top: 5px;
+  }
+  .waitingForContent01 h4 {
+    font-size: 40px;
+  }
+  .openFreeAccount03 {
+    padding: 15px 30px 16px 30px;
+    font-size: 13px;
+    line-height: 17.2px;
+  }
+  .itWorksContent01 p {
+    font-size: 14px;
+    margin-top: 5px;
+    line-height: 19px;
+  }
+  .itWorksContent01 h5 {
+    font-size: 35px;
+  }
+  .pseudoImg03 {
+    display: block;
+  }
+  .pseudoImg04 {
+    display: none;
+  }
+  .homeSection04 {
+    padding-top: 55px;
+  }
+  .pseudoImg02 {
+    display: none;
+  }
+  .worksCard01Row {
+    flex-wrap: wrap;
+  }
+  .worksCard01 {
+    max-width: 40%;
+  }
+  .lowFeesContentDiv01 p {
+    font-size: 15px;
+    line-height: 23.2px;
+  }
+  .worksCard02 {
+    margin-top: 5rem;
+  }
+  .pseudoImg02 {
+    margin-top: 5rem;
+  }
+  .homeSection03 {
+    min-height: 328px;
+    padding: 30px 20px;
+    margin-top: 130px;
+  }
+  .lowFeesContentDiv01 h3 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  .lowFeesContentDiv01 {
+    max-width: 502px;
+  }
+  .onePlacesCard {
+    min-height: 300px;
+  }
+  .greatRatesDiv01 {
+    max-width: 509px;
+    margin-top: 2rem;
+  }
+  .paymentContentdiv01 h6 {
+    font-size: 40px;
+  }
+  .paymentContentdiv01 p {
+    font-size: 14px;
+  }
+  .paymentMethodSection01 {
+    min-height: 195.062px;
+  }
+  .downPng01 {
+    display: none;
+  }
+  .downPng02 {
+    display: block;
+    left: 0 !important;
+  }
+  .calculationContent01 {
+    width: 100%;
+    min-height: 100vh;
+  }
+  .navLink01 {
+    margin-left: 0;
+    width: 150px;
+  }
+  .navbarUl01 {
+    padding: 2.5rem 0 2rem 0;
+    align-items: start;
+    gap: 25px;
+  }
+  .sendNowBtnTop {
+    padding: 15px 0 15px 0;
+    width: 150px;
+  }
+  .otpInput01 {
+    font-size: 44.357px;
+  }
+  .formContentDiv01 h2 {
+    font-size: 30px;
+  }
+  .formContentDiv01 p {
+    font-size: 14px;
+  }
+  .formContentDiv01 {
+    max-width: 310px;
+  }
+  .accountsInput {
+    font-size: 12px;
+    padding: 12px 18px;
+  }
+  /* .accountsCheckInput {
+    width: 15.2px;
+    height: 15.2px;
+  } */
+  .accountsLabel {
+    font-size: 13px;
+  }
+  .accountButton01 {
+    font-size: 13px;
+    padding: 14px 0px 14px 0px;
+    margin-top: 45px;
+  }
+  .accountButton02 {
+    font-size: 13px;
+    padding: 14px 0px 14px 0px;
+    margin-top: 18px;
+  }
+
+  .formContentDiv02 h3 {
+    font-size: 30px;
+    line-height: 54px;
+  }
+  .formContentDiv02 p {
+    font-size: 14px;
+  }
+  .formContentDiv02 {
+    max-width: 310px;
+  }
+  .formContentDiv02 h6 {
+    font-size: 12px;
+    margin-top: 18px;
+  }
+  .socialItemDiv img {
+    width: 42px;
+    height: 42px;
+  }
+  .accountsMainSection {
+    flex-direction: column;
+  }
+  .accountsSection01 {
+    width: 100%;
+    padding: 20px 20px;
+  }
+  .accountsSection02 {
+    width: 100%;
+    padding: 20px 20px;
+  }
+  .formContentDiv01 {
+    max-width: 397px;
+  }
+  .formContentDiv02 {
+    max-width: 397px;
+  }
+  .otpImgDiv img {
+    width: 100%;
+    max-width: 220px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .uploadedImageDiv {
+    width: 60.025px;
+    height: 60.025px;
+  }
+  .userNameDiv p {
+    font-size: 13.756px;
+    line-height: 20.259px;
+  }
+  .imageImageLabel {
+    padding: 10.005px 15.992px 10.265px 15.997px;
+    line-height: 22.259px;
+    font-size: 13.005px;
+  }
+  .uploadedImageGroup {
+    gap: 13px;
+  }
+  .uploadImageMainDiv {
+    padding: 20.259px 20.26px 20.259px 20.259px;
+  }
+  .formInput {
+    padding: 12px 15px 13px 15px;
+    font-size: 15px;
+  }
+  .paymentTitle {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .paymentCards p {
+    font-size: 16px;
+    line-height: 32px;
+  }
+  .formLabel {
+    font-size: 15px;
+  }
+  .amountTxtDiv p {
+    font-size: 15px;
+    line-height: 21.4px;
+  }
+  .amountTxtDiv h6 {
+    font-size: 18px;
+    line-height: 20.4px;
+  }
+  .payButton {
+    padding: 10px 5px;
+    font-size: 14px;
+    line-height: 23px;
+    margin-top: 37px;
+  }
+  .logoutLiDiv {
+    min-height: 250px;
+  }
+  .sideBarIconImg {
+    width: 20px;
+    height: 17px;
+  }
+  .sidebarUlDiv a li h6 {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .sideBarIcon {
+    font-size: 21px;
+  }
+  .userDescDiv {
+    gap: 10px;
+  }
+  .sidebarUlDiv a li {
+    padding: 12px 14px;
+    gap: 10px;
+    margin-top: 14px;
+  }
+  .hideSideBarIcon {
+    right: -10px;
+    font-size: 27px;
+  }
+  .sidebarMainSection01 {
+    max-width: 245px;
+    padding: 12px 20px 30px 20px;
+  }
+  .option_li {
+    padding: 10px 15px;
+    font-size: 13px;
+  }
+  .selected_option {
+    padding: 8px 11.107px 9px 11px;
+    font-size: 14px;
+    line-height: 17px;
+  }
+  .clearFilterBtn {
+    font-size: 14px;
+    line-height: 17px;
+    width: 121px;
+    padding: 11px 14px 10px 12px;
+  }
+  .selected_option i {
+    font-size: 21px;
+  }
+  .insideWalletHeaderMainSec {
+    padding: 12px 18px 11px 40px;
+    gap: 5px;
+  }
+  .insideWalletHeaderMainSec h1 {
+    font-size: 21px;
+    line-height: normal;
+  }
+  .btnPayment01 {
+    padding: 7px 11px;
+    gap: 5px;
+  }
+  .btnPayment01 i {
+    font-size: 12px;
+  }
+  .headerSearchInput {
+    padding: 9px 31px 10px 16px;
+    min-width: 340px;
+  }
+  .searchInputDiv01 i {
+    font-size: 18px;
+    right: 9px;
+  }
+  .notifIcon {
+    font-size: 22px;
+  }
+  .headerSearchDiv01 {
+    gap: 15px;
+  }
+  .supTitleP01 {
+    font-size: 13px;
+  }
+  .headerTxt01 {
+    font-size: 20px;
+  }
+  .homeSection08 {
+    padding: 60px 0;
+  }
+  .swiperCard01 {
+    min-height: 357px;
+    padding: 20px 20px;
+  }
+  .starFillDiv i {
+    font-size: 16px;
+  }
+  .swiperCardContent01 p {
+    margin-top: 14px;
+    font-size: 14px;
+    line-height: 23px;
+  }
+  .swiperLogoDiv img {
+    width: 46px;
+    height: 46px;
+  }
+  .swiperLogoDiv h6 {
+    font-size: 15px;
+  }
+  .swiperLogoDiv p {
+    font-size: 11px;
+  }
+  .swiperLogoDiv {
+    margin-top: 25px;
+    gap: 11px;
+  }
+  .swiper-pagination-bullet {
+    width: var(
+      --swiper-pagination-bullet-width,
+      var(--swiper-pagination-bullet-size, 9px)
+    );
+    height: var(
+      --swiper-pagination-bullet-height,
+      var(--swiper-pagination-bullet-size, 9px)
+    );
+  }
+  .swiperSection01 .swiper-pagination-fraction,
+  .swiper-pagination-custom,
+  .swiper-horizontal > .swiper-pagination-bullets,
+  .swiper-pagination-bullets.swiper-pagination-horizontal {
+    bottom: var(--swiper-pagination-bottom, 56px);
+  }
+
+  .swiperCardContent01 h3 {
+    margin-top: 17px;
+    font-size: 18px;
+  }
+  .swiperSection01 {
+    padding: 15px 0 100px 0;
+  }
+  .accordionButton01 {
+    font-size: 14px;
+    padding: 15px 22px;
+  }
+  .accordionBody01 {
+    padding: 15px 22px 20px 22px;
+  }
+  .accordionBody01 p {
+    font-size: 13px;
+    line-height: 19px;
+  }
+  .waitingForContent01 {
+    max-width: 470px;
+  }
+  .waitingForContent01 h4 {
+    font-size: 35px;
+    line-height: 50px;
+  }
+  .waitingForContent01 p {
+    font-size: 13px;
+    line-height: 22.2px;
+    margin-top: 5px;
+  }
+  .waitingForContentBtn01 {
+    margin-top: 38px;
+  }
+  .homeSection04 {
+    padding-top: 40px;
+  }
+  .worksCard01 img {
+    height: 65px;
+  }
+  .worksCard01 h6 {
+    font-size: 15px;
+  }
+  .onePlacesCard p {
+    font-size: 11px;
+    line-height: 18px;
+  }
+  .onePlacesCard h6 {
+    font-size: 19px;
+    margin-top: 25px;
+  }
+  .onePlacesCard img {
+    height: 70px;
+  }
+  .lowFeesContentDiv01 p {
+    font-size: 14px;
+    line-height: 23.2px;
+  }
+  .lowFeesContentDiv01 h3 {
+    font-size: 35px;
+    line-height: 44px;
+  }
+  .lowFeesContentDiv01 {
+    max-width: 370px;
+  }
+  .paymentMethodSection01 {
+    flex-wrap: wrap;
+    min-height: 277.062px;
+  }
+  .paymentContentdiv01 h6 {
+    font-size: 35px;
+  }
+  .paymentContentdiv01 p {
+    font-size: 13px;
+  }
+  .homeSection01 {
+    margin-top: 68px;
+    padding: 0 45px 45px 45px;
+  }
+  .calculationContent01 {
+    width: 100%;
+    min-height: 79vh;
+  }
+  .headerMainSection {
+    padding: 0 35px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .swapContainer {
+    padding: 30px 15px 35px 15px;
+  }
+  .bitcoinBalanceDiv p {
+    font-size: 14px;
+  }
+  .swapImage {
+    top: 124px;
+    width: 48px;
+    height: 48px;
+  }
+  .bitcoinSelectSection {
+    padding: 17px 15px 23px 15px;
+    margin-bottom: 30px;
+  }
+  .totalPriceSection {
+    padding-bottom: 30px;
+  }
+  .swapButon {
+    font-size: 14.756px;
+    margin-top: 30px;
+  }
+  .bitcoinBalanceDiv h6 {
+    font-size: 27px;
+  }
+  .bitcoinBalanceDiv sub {
+    font-size: 16px;
+    top: -1px;
+  }
+  .PhoneInputInput {
+    font-size: 13px;
+  }
+  .eWalletText {
+    font-size: 18px;
+    line-height: normal;
+  }
+  .labelDiv {
+    flex-wrap: wrap;
+  }
+  .noitificationHeadDiv h1 {
+    font-size: 16px;
+    line-height: 27.4px;
+  }
+  .checkInputLabel {
+    width: 44px;
+    height: 20px;
+  }
+  .checkInputLabel:after {
+    top: 3px;
+    width: 14px;
+    height: 14px;
+  }
+  .navTabsContentMainSection {
+    padding-top: 34px;
+  }
+  .settingHeadingDiv p {
+    font-size: 13px;
+  }
+  .noitificationHeadDiv {
+    margin-bottom: 13px;
+  }
+  .navTabsButton {
+    padding: 9.254px 30.592px 9.514px 30.018px;
+    font-size: 12.756px;
+  }
+  .settingHeadingDiv {
+    padding-bottom: 35px;
+  }
+  .settingHeadingDiv h5 {
+    font-size: 26px;
+  }
+  .formSaveButton {
+    padding: 7.628px 0px 8.888px 0px;
+    margin-top: 28px;
+  }
+  .accountMainSection {
+    padding: 24px 20px 28px 20px;
+  }
+  .uploadImageMainDiv {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .uploadedImageGroup {
+    flex-direction: column;
+    align-items: center;
+  }
+  .userNameDiv h4 {
+    text-align: center;
+    font-size: 14.756px;
+  }
+  .userNameDiv p {
+    font-size: 12.756px;
+    text-align: center;
+  }
+  .formLabel {
+    font-size: 13px;
+  }
+  .imageImageLabel {
+    padding: 9.005px 15.992px 10.265px 15.997px;
+    line-height: 20.259px;
+  }
+  .notificationTxtDiv h6 {
+    font-size: 14px;
+  }
+  .notificationTxtDiv p {
+    font-size: 12px;
+  }
+  .notificationCard {
+    padding: 25px 13px 25px 13px;
+  }
+  .notificationTxtDiv {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+  .notificationTxtDiv h6 {
+    text-align: center;
+  }
+  .notificationTxtDiv p {
+    text-align: center;
+  }
+  .notificationCard {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .paymentCards {
+    padding: 10px 17px;
+  }
+  .amountTxtDiv p {
+    font-size: 14px;
+  }
+  .paymentMainSection {
+    padding: 20px 24px;
+  }
+  .formInput {
+    padding: 11px 12px 12px 12px;
+    font-size: 13px;
+  }
+  .amountTxtDiv h6 {
+    font-size: 17px;
+  }
+  .coinCardMain h2 {
+    margin-top: -8px;
+    font-size: 14px;
+    line-height: 25.852px;
+  }
+  .coinCardMain {
+    min-height: 106.495px;
+  }
+  .selected_option {
+    font-size: 13px;
+  }
+  .currencyImgDiv {
+    width: 45px;
+    height: 45px;
+  }
+  .option_li {
+    padding: 9px 13px;
+    font-size: 13px;
+  }
+  .clearFilterBtn {
+    font-size: 13px;
+    line-height: 15px;
+    width: 114px;
+  }
+  .personTxtDiv {
+    display: flex;
+    gap: 3px;
+    margin-top: 5px;
+  }
+  .theadTr01 th {
+    padding: 10.187px 8px 9.224px 8px;
+  }
+  .currencyCard01 p {
+    font-size: 11px;
+  }
+  .coinImg {
+    width: 35.228px;
+    height: 35.228px;
+    top: -20px;
+  }
+  .titleTxtMainSection {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .supTitleP01 {
+    font-size: 12px;
+  }
+  .notifIcon {
+    font-size: 20px;
+  }
+  .insideWalletHeaderMainSec h1 {
+    font-size: 19px;
+  }
+  .searchInputDiv01 i {
+    font-size: 17px;
+    right: 7px;
+  }
+  .headerSearchDiv01 {
+    gap: 10px;
+  }
+  .searchInputDiv01 i {
+    font-size: 15px;
+  }
+  .openSidebarIcon {
+    font-size: 24px;
+  }
+  .headerSearchInput {
+    padding: 8px 25px 9px 12px;
+    min-width: auto;
+
+    font-size: 11px;
+  }
+  .swiperCardContent01 h3 {
+    margin-top: 16px;
+    font-size: 16px;
+  }
+  .swiperSection01 {
+    padding: 15px 0 100px 0;
+  }
+  .swiperSection01 .swiper {
+    padding: 0 25px;
+  }
+  .homeSection08 {
+    padding: 50px 0;
+  }
+  .swiperCard01 {
+    min-height: 340px;
+  }
+  .swiperCardContent01 p {
+    margin-top: 12px;
+    font-size: 13px;
+    line-height: 22px;
+  }
+  .accordionButton01 {
+    font-size: 12px;
+    padding: 12px 15px;
+    margin-top: 10px;
+    line-height: 18.4px;
+  }
+  .accordionBody01 p {
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .waitingForContent01 h4 {
+    font-size: 30px;
+    line-height: 43px;
+  }
+  .waitingForContent01 {
+    max-width: 300px;
+  }
+  .waitingForContentBtn01 {
+    margin-top: 35px;
+    flex-wrap: wrap;
+  }
+  .accordionBody01 {
+    padding: 13px 15px 19px 15px;
+  }
+  .openFreeAccount03 {
+    padding: 14px 25px 15px 25px;
+    font-size: 12px;
+    line-height: 17.2px;
+  }
+  .homeSection05 {
+    margin-top: 100px;
+    padding: 45px 20px;
+  }
+  .waitingForContent01 p {
+    font-size: 12px;
+    line-height: 20.2px;
+    margin-top: 5px;
+  }
+  .itWorksContent01 h5 {
+    font-size: 30px;
+  }
+  .homeSection04 {
+    padding-top: 30px;
+  }
+  .itWorksContent01 p {
+    font-size: 12px;
+    margin-top: 0px;
+    line-height: 16px;
+  }
+  .pseudoImg03 {
+    display: none;
+  }
+  .pseudoImg04 {
+    display: block;
+  }
+  .pseudoImg02 {
+    display: block;
+  }
+  .pseudoImg {
+    rotate: 90deg;
+  }
+  .worksCard01Row {
+    justify-content: center;
+    gap: 70px;
+  }
+  .worksCard01 {
+    max-width: 100%;
+  }
+  .worksCard02 {
+    margin-top: 0rem;
+  }
+  .pseudoImg02 {
+    margin-top: 0rem;
+  }
+  .lowFeesContentDiv01 p {
+    font-size: 12px;
+    line-height: 19.2px;
+  }
+  .lowFeesContentDiv01 h3 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .homeSection03 {
+    min-height: 328px;
+    padding: 25px 20px;
+    margin-top: 100px;
+  }
+  .onePlacesCard p {
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .onePlacesCard {
+    min-height: 280px;
+  }
+  .homeSection02 {
+    margin-top: 20px;
+  }
+  .greatRatesDiv01 {
+    max-width: 416px;
+    margin-top: 2rem;
+  }
+  .greatRatesDiv01 p {
+    font-size: 12px;
+  }
+  .ratesWorkBtn {
+    font-size: 13px;
+    padding: 12px 34px 12px 35px;
+    margin-top: 30px;
+  }
+  .greatRatesDiv01 h1 {
+    font-size: 33px;
+    line-height: 45px;
+  }
+  .paymentContentdiv01 h6 {
+    font-size: 30px;
+  }
+  .paymentContentdiv01 p {
+    font-size: 12px;
+  }
+  .paymentMethodSection01 {
+    min-height: auto;
+    gap: 50px;
+    padding: 40px 15px;
+    top: -40px;
+  }
+  .seamLessContent01 {
+    padding: 72px 0 0 0;
+  }
+  .seamLessContent02 h6 {
+    font-size: 13px;
+  }
+  .bookPng01 {
+    max-width: 90px;
+    height: 127px;
+  }
+  .calculationContent01 {
+    min-height: auto;
+  }
+  .downPng01 {
+    max-width: 128px;
+    height: 109px;
+  }
+  .dollarPng01 {
+    position: absolute;
+    right: 0px;
+    top: 54px;
+    max-width: 29px;
+    height: 47px;
+  }
+  .homeSection01 {
+    margin-top: 65px;
+  }
+  .manageMaxWidthAllSection {
+    padding: 0px 30px;
+  }
+  .seamLessContent02 h2 {
+    font-size: 39px;
+    line-height: 50px;
+  }
+  .seamLessContent02 p {
+    font-size: 13px;
+    max-width: 300px;
+    line-height: 22px;
+  }
+  .openFreeAccount01 {
+    font-size: 12px;
+    padding: 12px 20px 12px 20px;
+  }
+  .seamLessContent02Button {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .headerMainSection {
+    padding: 0 20px;
+  }
+  .navbarExpand01 {
+    padding: 10px 0;
+  }
+  .accountsCheckInput {
+    height: 18.2px;
+    width: 18.2px;
+  }
+  .formContentDiv01 h2 {
+    font-size: 25px;
+    line-height: 56px;
+  }
+  .formContentDiv01 p {
+    line-height: 22px;
+  }
+  .formContentDiv02 h3 {
+    font-size: 25px;
+    line-height: 54px;
+  }
+}
+@media screen and (max-width: 350px) {
+  .bitcoinSelectSection {
+    padding: 17px 10px 23px 10px;
+}
+.swapContainer {
+  padding: 25px 10px 30px 10px;
+}
+.mangeTwoSection {
+  padding: 21px 15px 50px 15px;
+}
+  .accountMainSection {
+    padding: 20px 15px 24px 15px;
+  }
+  .labelDiv {
+    flex-wrap: wrap;
+    line-height: 20px;
+  }
+  .formSaveButton {
+    font-size: 13px;
+    line-height: 22.259px;
+  }
+  .lowFeesContentDiv01 h3 {
+    font-size: 30px;
+    line-height: 36px;
+  }
+  .lowFeesContentDiv01 p {
+    font-size: 11px;
+    line-height: 19.2px;
+  }
+  .homeSection03 {
+    min-height: 310px;
+    padding: 25px 20px;
+    margin-top: 80px;
+  }
+  .headerMainSection {
+    padding: 0 10px;
+  }
+  .manageMaxWidthAllSection {
+    padding: 0px 24px;
+  }
+  .seamLessContent02 h2 {
+    font-size: 37px;
+    line-height: 50px;
+  }
+}
