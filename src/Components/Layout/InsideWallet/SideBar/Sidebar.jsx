@@ -27,10 +27,14 @@ export default function Sidebar({ isSidebarVisible, toggleSidebar }) {
     setisNotification(location.pathname === '/inside-wallet/notifications')
     setisAccount(location.pathname === '/inside-wallet/account');
     setisSetting(location.pathname === '/inside-wallet/settings');
+    setMenuActive(false);
   }, [location.pathname]);
 
-  const handleSidebarToggle = () => {
-    toggleSidebar(); // Call the provided toggleSidebar function
+  const handleLinkClick = () => {
+    setMenuActive(false);
+    if (window.innerWidth <= 992) {
+      toggleSidebar();
+    }
   };
   return (
     <div className={`sidebarMainSection01 ${isSidebarVisible ? '' : 'sidebarHidden'}`}>
@@ -50,20 +54,20 @@ export default function Sidebar({ isSidebarVisible, toggleSidebar }) {
           <div className={`menu ${menuActive ? "active" : ""}`}>
             <ul>
               <li>
-                <Link to="/inside-wallet/account">Profile</Link>
+                <Link to="/inside-wallet/account" onClick={handleLinkClick}>Profile</Link>
               </li>
             </ul>
           </div>
         </div>
       </div>
       <div className="sidebarUlDiv">
-        <NavLink to="/inside-wallet" className={`nav-link ${isInsideWallet ? 'navLinkActive' : ''}`}>
+        <NavLink to="/inside-wallet" className={`nav-link ${isInsideWallet ? 'navLinkActive' : ''}`} onClick={handleLinkClick}>
           <li>
             <i className="bx bx-grid-alt sideBarIcon"></i>
             <h6>Overview</h6>
           </li>
         </NavLink>
-        <NavLink to="/inside-wallet/payments" className={`nav-link ${isPayments ? 'navLinkActive' : ''}`}>
+        <NavLink to="/inside-wallet/payments" className={`nav-link ${isPayments ? 'navLinkActive' : ''}`} onClick={handleLinkClick}>
           <li>
             <i className="bx bx-wallet sideBarIcon"></i>
             <h6>Payments</h6>
@@ -74,31 +78,32 @@ export default function Sidebar({ isSidebarVisible, toggleSidebar }) {
           className={`nav-link ${isHovered ? "active" : ""}`}
           onMouseEnter={() => setIsHovered(true)}
           onMouseLeave={() => setIsHovered(false)}
+          onClick={handleLinkClick}
         >
           <li className={`yourCustomClass ${isTransaction ? 'navLinkActive' : ''}`}>
             <img src={(isHovered || isTransaction) ? icon02 : icon01} alt="" className="sideBarIconImg" />
             <h6>Transactions</h6>
           </li>
         </NavLink>
-        <NavLink to="#" className={`nav-link ${isSwap ? 'navLinkActive' : ''}`}>
+        <NavLink to="/inside-wallet/swap" className={`nav-link ${isSwap ? 'navLinkActive' : ''}`} onClick={handleLinkClick}>
           <li>
             <span className="material-symbols-outlined sideBarIcon">swap_horiz</span>
             <h6>Swap</h6>
           </li>
         </NavLink>
-        <NavLink to="/inside-wallet/notifications" className={`nav-link ${isNotification ? 'navLinkActive' : ''}`}>
+        <NavLink to="/inside-wallet/notifications" className={`nav-link ${isNotification ? 'navLinkActive' : ''}`} onClick={handleLinkClick}>
           <li>
             <i className="bx bx-bell sideBarIcon"></i>
             <h6>Notifications</h6>
           </li>
         </NavLink>
-        <NavLink to="/inside-wallet/account" className={`nav-link ${isAccount ? 'navLinkActive' : ''}`}>
+        <NavLink to="/inside-wallet/account" className={`nav-link ${isAccount ? 'navLinkActive' : ''}`} onClick={handleLinkClick}>
           <li>
             <i className="bx bx-user sideBarIcon"></i>
             <h6>Account</h6>
           </li>
         </NavLink>
-        <NavLink to="#" className={`nav-link ${isSetting ? 'navLinkActive' : ''}`}>
+        <NavLink to="/inside-wallet/settings" className={`nav-link ${isSetting ? 'navLinkActive' : ''}`} onClick={handleLinkClick}>
           <li>
             <i className="bx bx-cog sideBarIcon"></i>
             <h6>Settings</h6>

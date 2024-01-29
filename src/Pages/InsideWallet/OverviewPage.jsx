@@ -39,6 +39,10 @@ export default function OverviewPage() {
           </a>
         </div>
       </div>
+      <div className="totalCryptoCard">
+        <p>TOTAL ASSETS</p>
+        <h1>$20,678,97</h1>
+        </div>
       <div className="row mt-4">
         <div className="col-lg-3 col-md-3 col-sm-4 col-6 mt-5">
           <div className="coinCardMain">
@@ -93,7 +97,7 @@ export default function OverviewPage() {
             <div className="currencyCard01">
               <p>GBP Balance</p>
               <div className="currencyImgDiv">
-                <img src={currency01} alt="" />
+                <img src={coin03} alt="" />
               </div>
               <h6>456.00</h6>
               <p>British Pounds</p>

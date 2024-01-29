@@ -1,17 +1,32 @@
 import React, { useState } from 'react';
 
-const CustomSelect = () => {
+const CustomSelect = ({ selectedOption, onSelect }) => {
   const [isActive, setIsActive] = useState(false);
-  const [selectedOption, setSelectedOption] = useState('Etherem');
-  const languages = ['Etherem', 'USD', 'EUR', 'AED', 'AUD', 'CAD', 'JPY', 'MDL', 'GBP'];
+  const currencies = [
+    'Ethereum',
+    'USD',
+    'EUR',
+    'AED',
+    'AUD',
+    'CAD',
+    'JPY',
+    'MDL',
+    'GBP',
+    'PKR', 
+    'INR', 
+    'CNY', 
+    'BRL',
+    'RUB', 
+    'ZAR', 
+  ];
 
   const toggleOptions = () => {
     setIsActive(!isActive);
   };
 
   const handleOptionClick = (option) => {
-    setSelectedOption(option);
     setIsActive(false);
+    onSelect && onSelect(option);
   };
 
   return (
@@ -21,9 +36,9 @@ const CustomSelect = () => {
         <i className={`bx ${isActive ? 'bx-chevron-up' : 'bx-chevron-down'} swap_select_box_icon`}></i>
       </div>
       <div className={`swap_option_container ${isActive ? 'containerActive' : ''}`}>
-        {languages.map((language, index) => (
-          <div key={index} className={`swap_option_li ${selectedOption === language ? 'selected' : ''}`} onClick={() => handleOptionClick(language)}>
-            {language}
+        {currencies.map((currency, index) => (
+          <div key={index} className={`swap_option_li ${selectedOption === currency ? 'selected' : ''}`} onClick={() => handleOptionClick(currency)}>
+            {currency}
           </div>
         ))}
       </div>
