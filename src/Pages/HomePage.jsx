@@ -18,6 +18,7 @@ import works04 from "/src/assets/images/works04.svg";
 import OnePlacesCard from "../Components/OnePlacesCard";
 import AccordionData from "../Components/AccordionData";
 import SwiperComponent from "../Components/SwiperComponent";
+import { Link } from "react-router-dom";
 export default function HomePage() {
   return (
     <>
@@ -34,11 +35,11 @@ export default function HomePage() {
                   us. Get a customized solution to fit your business needs
                 </p>
                 <div className="seamLessContent02Button">
-                  <a href="#">
+                  <Link to="/registration">
                     <button className="openFreeAccount01">
                       Open Free Account
                     </button>
-                  </a>
+                  </Link>
                   <a href="#">
                     <button className="openFreeAccount01 openFreeAccount02">
                       See How it Works
@@ -210,9 +211,9 @@ export default function HomePage() {
               Get a customized solution to fit your business needs
             </p>
             <div className="waitingForContentBtn01">
-              <a href="#">
+              <Link to="/registration">
                 <button className="openFreeAccount03">Open Free Account</button>
-              </a>
+              </Link>
               <a href="#">
                 <button className="openFreeAccount03 openFreeAccount04">
                   See How it Works

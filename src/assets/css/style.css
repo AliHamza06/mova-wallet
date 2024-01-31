@@ -9,6 +9,23 @@
   margin: 0;
 }
 
+body::-webkit-scrollbar {
+  width: 5px;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: #eceef2;
+}
+
+body::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #fff;
+  background-image: -webkit-linear-gradient(top,
+      #e4f5fc 0%,
+      #bfe8f9 50%,
+      #9fd8ef 51%,
+      #2c415a 150%);
+}
 .accountsMainSection {
   display: flex;
 }
@@ -1474,7 +1491,23 @@
   overflow-y: auto;
   overflow-x: hidden;
 }
+.mainContent::-webkit-scrollbar {
+  width: 5px;
+}
 
+.mainContent::-webkit-scrollbar-track {
+  background-color: #eceef2;
+}
+
+.mainContent::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #fff;
+  background-image: -webkit-linear-gradient(top,
+      #e4f5fc 0%,
+      #bfe8f9 50%,
+      #9fd8ef 51%,
+      #2c415a 150%);
+}
 /* overview css  */
 .mangeTwoSection {
   background: #fff;
