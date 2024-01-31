@@ -2040,17 +2040,19 @@
 .formInput {
   color: rgba(44, 65, 90, 0.6) !important;
   font-family: "Noto Sans";
-  font-size: 15px;
+  font-size: 15px !important;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
   border-radius: 4px;
   border: 1px solid rgba(44, 65, 90, 0.2) !important;
   background-color: #fff;
-  padding: 14px 16px 15px 16px;
+  padding: 14px 16px 15px 16px !important;
   outline: none;
 }
-
+.formInput i {
+  color: rgba(44, 65, 90, 0.6) !important;
+}
 .formInput:focus {
   box-shadow: none;
 }
@@ -2081,7 +2083,7 @@
   color: #2c415a;
   text-align: right;
   font-family: "Noto Sans";
-  font-size: 22px;
+  font-size: 20px;
   font-style: normal;
   font-weight: 500;
   line-height: 32.4px;
@@ -3026,8 +3028,8 @@
   }
 
   .formInput {
-    padding: 12px 16px 13px 16px;
-    font-size: 15px;
+    padding: 12px 16px 13px 16px !important;
+    font-size: 15px !important;
   }
 
   .formSaveButton {
@@ -4037,8 +4039,8 @@
   }
 
   .formInput {
-    padding: 12px 15px 13px 15px;
-    font-size: 15px;
+    padding: 12px 15px 13px 15px !important;
+    font-size: 15px !important;
   }
 
   .paymentTitle {
@@ -4521,12 +4523,18 @@
   }
 
   .formInput {
-    padding: 11px 12px 12px 12px;
-    font-size: 13px;
+    padding: 11px 12px 12px 12px !important;
+    font-size: 13px !important;
   }
-
+  .formInputSelect{
+    padding: 10px 12px 11px 12px !important;
+  }
+  .formInput i {
+    font-size: 21px;
+    color: rgba(44, 65, 90, 0.6) !important;
+}
   .amountTxtDiv h6 {
-    font-size: 17px;
+    font-size: 15px;
   }
 
   .coinCardMain h2 {
