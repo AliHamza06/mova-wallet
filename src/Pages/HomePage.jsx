@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef } from "react";
 
 import book from "/src/assets/images/book.svg";
 import down from "/src/assets/images/doen.svg";
@@ -20,6 +20,12 @@ import AccordionData from "../Components/AccordionData";
 import SwiperComponent from "../Components/SwiperComponent";
 import { Link } from "react-router-dom";
 export default function HomePage() {
+  // page scroll 
+  const ref = useRef(null);
+
+  const handleClick = () => {
+    ref.current?.scrollIntoView({ behavior: 'smooth' });
+  };
   return (
     <>
       <div className="manageMaxWidthAllSection homeSection01">
@@ -41,7 +47,7 @@ export default function HomePage() {
                     </button>
                   </Link>
                   <a href="#">
-                    <button className="openFreeAccount01 openFreeAccount02">
+                    <button className="openFreeAccount01 openFreeAccount02" onClick={handleClick}>
                       See How it Works
                     </button>
                   </a>
@@ -164,7 +170,7 @@ export default function HomePage() {
           </div>
         </div>
         {/* How it works? Section  */}
-        <div className="homeSection04">
+        <div className="homeSection04" ref={ref}>
           <div className="itWorksContent01">
             <h5>How it works?</h5>
             <p>Just few step to start , it’s easier than you think</p>
